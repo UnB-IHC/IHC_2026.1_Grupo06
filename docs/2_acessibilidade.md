@@ -98,36 +98,36 @@ Durante a avaliação prática deste projeto, os critérios dos níveis *A* e *A
 <summary><strong> 1. Princípio Perceptível</strong></summary>
 <h3>1.1 Alternativas em Texto</h3>
 
-<label><input class="wcag-check" id="wcag-111-1" type="checkbox"> Todas as imagens possuem texto alternativo (alt).</label><br>
-<label><input class="wcag-check" id="wcag-111-2" type="checkbox"> Ícones possuem descrição acessível.</label><br>
-<label><input class="wcag-check" id="wcag-111-3" type="checkbox"> Gráficos possuem descrição textual.</label><br>
-<label><input class="wcag-check" id="wcag-111-4" type="checkbox"> Botões com ícones possuem nome acessível.</label>
+<label><input class="wcag-check" id="wcag-111-1" type="checkbox"> Todas as imagens possuem texto alternativo (alt).</label><a href="6_referencias.html#ref-wcag-32">[32]</a><br>
+<label><input class="wcag-check" id="wcag-111-2" type="checkbox"> Ícones possuem descrição acessível.</label><a href="6_referencias.html#ref-wcag-33">[33]</a><br>
+<label><input class="wcag-check" id="wcag-111-3" type="checkbox"> Gráficos possuem descrição textual.</label><a href="6_referencias.html#ref-wcag-34">[34]</a><br>
+<label><input class="wcag-check" id="wcag-111-4" type="checkbox"> Botões com ícones possuem nome acessível.</label><a href="6_referencias.html#ref-wcag-35">[35]</a>
 
 <h3>1.2 Mídias Baseadas em Tempo</h3>
 
-<label><input class="wcag-check" id="wcag-121-1" type="checkbox"> Áudios possuem transcrição.</label><br>
-<label><input class="wcag-check" id="wcag-122-1" type="checkbox"> Vídeos possuem legendas.</label><br>
-<label><input class="wcag-check" id="wcag-125-1" type="checkbox"> Vídeos possuem audiodescrição.</label><br>
-<label><input class="wcag-check" id="wcag-124-1" type="checkbox"> Conteúdos ao vivo possuem legendas.</label><br>
-<label><input class="wcag-check" id="wcag-126-1" type="checkbox"> Vídeos possuem interpretação em Libras.</label>
+<label><input class="wcag-check" id="wcag-121-1" type="checkbox"> Áudios possuem transcrição.</label><a href="6_referencias.html#ref-wcag-36">[36]</a><br>
+<label><input class="wcag-check" id="wcag-122-1" type="checkbox"> Vídeos possuem legendas.</label><a href="6_referencias.html#ref-wcag-37">[37]</a><br>
+<label><input class="wcag-check" id="wcag-125-1" type="checkbox"> Vídeos possuem audiodescrição.</label><a href="6_referencias.html#ref-wcag-38">[38]</a><br>
+<label><input class="wcag-check" id="wcag-124-1" type="checkbox"> Conteúdos ao vivo possuem legendas.</label><a href="6_referencias.html#ref-wcag-39">[39]</a><br>
+<label><input class="wcag-check" id="wcag-126-1" type="checkbox"> Vídeos possuem interpretação em Libras.</label><a href="6_referencias.html#ref-wcag-40">[40]</a>
 
 <h3>1.3 Adaptável</h3>
 
-<label><input class="wcag-check" id="wcag-131-1" type="checkbox"> Cabeçalhos utilizam estrutura H1-H6 corretamente.</label><br>
-<label><input class="wcag-check" id="wcag-131-2" type="checkbox"> Tabelas possuem marcação semântica.</label><br>
-<label><input class="wcag-check" id="wcag-131-3" type="checkbox"> Listas utilizam UL/OL/LI.</label><br>
-<label><input class="wcag-check" id="wcag-132-1" type="checkbox"> A ordem de leitura é lógica.</label><br>
-<label><input class="wcag-check" id="wcag-133-1" type="checkbox"> Instruções não dependem apenas de cor.</label>
+<label><input class="wcag-check" id="wcag-131-1" type="checkbox"> Cabeçalhos utilizam estrutura H1-H6 corretamente.</label><a href="6_referencias.html#ref-wcag-41">[41]</a><br>
+<label><input class="wcag-check" id="wcag-131-2" type="checkbox"> Tabelas possuem marcação semântica.</label><a href="6_referencias.html#ref-wcag-42">[42]</a><br>
+<label><input class="wcag-check" id="wcag-131-3" type="checkbox"> Listas utilizam UL/OL/LI.</label><a href="6_referencias.html#ref-wcag-43">[43]</a><br>
+<label><input class="wcag-check" id="wcag-132-1" type="checkbox"> A ordem de leitura é lógica.</label><a href="6_referencias.html#ref-wcag-44">[44]</a><br>
+<label><input class="wcag-check" id="wcag-133-1" type="checkbox"> Instruções não dependem apenas de cor.</label><a href="6_referencias.html#ref-wcag-45">[45]</a>
 
 <h3>1.4 Distinguível</h3>
 
-<label><input class="wcag-check" id="wcag-141-1" type="checkbox"> A cor não é o único meio de transmitir informação.</label><br>
-<label><input class="wcag-check" id="wcag-143-1" type="checkbox"> Contraste mínimo de 4,5:1 para texto normal.</label><br>
-<label><input class="wcag-check" id="wcag-143-2" type="checkbox"> Contraste mínimo de 3:1 para texto grande.</label><br>
-<label><input class="wcag-check" id="wcag-144-1" type="checkbox"> O texto pode ser ampliado em até 200%.</label><br>
-<label><input class="wcag-check" id="wcag-1410-1" type="checkbox"> Não há necessidade de rolagem horizontal excessiva.</label><br>
-<label><input class="wcag-check" id="wcag-1411-1" type="checkbox"> Botões e componentes possuem contraste adequado.</label><br>
-<label><input class="wcag-check" id="wcag-1412-1" type="checkbox"> O conteúdo continua funcional com espaçamento ampliado.</label>
+<label><input class="wcag-check" id="wcag-141-1" type="checkbox"> A cor não é o único meio de transmitir informação.</label><a href="6_referencias.html#ref-wcag-46">[46]</a><br>
+<label><input class="wcag-check" id="wcag-143-1" type="checkbox"> Contraste mínimo de 4,5:1 para texto normal.</label><a href="6_referencias.html#ref-wcag-47">[47]</a><br>
+<label><input class="wcag-check" id="wcag-143-2" type="checkbox"> Contraste mínimo de 3:1 para texto grande.</label><a href="6_referencias.html#ref-wcag-48">[48]</a><br>
+<label><input class="wcag-check" id="wcag-144-1" type="checkbox"> O texto pode ser ampliado em até 200%.</label><a href="6_referencias.html#ref-wcag-49">[49]</a><br>
+<label><input class="wcag-check" id="wcag-1410-1" type="checkbox"> Não há necessidade de rolagem horizontal excessiva.</label><a href="6_referencias.html#ref-wcag-50">[50]</a><br>
+<label><input class="wcag-check" id="wcag-1411-1" type="checkbox"> Botões e componentes possuem contraste adequado.</label><a href="6_referencias.html#ref-wcag-51">[51]</a><br>
+<label><input class="wcag-check" id="wcag-1412-1" type="checkbox"> O conteúdo continua funcional com espaçamento ampliado.</label><a href="6_referencias.html#ref-wcag-52">[52]</a>
 
 </details>
 
@@ -138,34 +138,34 @@ Durante a avaliação prática deste projeto, os critérios dos níveis *A* e *A
 
 <h3>2.1 Acessível por Teclado</h3>
 
-<label><input class="wcag-check" id="wcag-211" type="checkbox"> Todas as funcionalidades funcionam via teclado.</label><br>
-<label><input class="wcag-check" id="wcag-212" type="checkbox"> Não existem armadilhas de teclado.</label><br>
-<label><input class="wcag-check" id="wcag-214" type="checkbox"> Atalhos podem ser personalizados ou desativados.</label>
+<label><input class="wcag-check" id="wcag-211" type="checkbox"> Todas as funcionalidades funcionam via teclado.</label><a href="6_referencias.html#ref-wcag-53">[53]</a><br>
+<label><input class="wcag-check" id="wcag-212" type="checkbox"> Não existem armadilhas de teclado.</label><a href="6_referencias.html#ref-wcag-54">[54]</a><br>
+<label><input class="wcag-check" id="wcag-214" type="checkbox"> Atalhos podem ser personalizados ou desativados.</label><a href="6_referencias.html#ref-wcag-55">[55]</a>
 
 <h3>2.2 Tempo Suficiente</h3>
 
-<label><input class="wcag-check" id="wcag-221" type="checkbox"> O usuário pode aumentar limites de tempo.</label><br>
-<label><input class="wcag-check" id="wcag-222" type="checkbox"> Conteúdos em movimento podem ser pausados.</label><br>
-<label><input class="wcag-check" id="wcag-226" type="checkbox"> Existe aviso antes da expiração da sessão.</label>
+<label><input class="wcag-check" id="wcag-221" type="checkbox"> O usuário pode aumentar limites de tempo.</label><a href="6_referencias.html#ref-wcag-56">[56]</a><br>
+<label><input class="wcag-check" id="wcag-222" type="checkbox"> Conteúdos em movimento podem ser pausados.</label><a href="6_referencias.html#ref-wcag-57">[57]</a><br>
+<label><input class="wcag-check" id="wcag-226" type="checkbox"> Existe aviso antes da expiração da sessão.</label> <a href="6_referencias.html#ref-wcag-58">[58]</a>
 
 <h3>2.3 Convulsões e Reações Físicas</h3>
-<label><input class="wcag-check" id="wcag-231" type="checkbox"> O conteúdo não pisca mais de três vezes por segundo.</label><br>
-<label><input class="wcag-check" id="wcag-233" type="checkbox"> Animações podem ser desativadas.</label>
+<label><input class="wcag-check" id="wcag-231" type="checkbox"> O conteúdo não pisca mais de três vezes por segundo.</label><a href="6_referencias.html#ref-wcag-59">[59]</a><br>
+<label><input class="wcag-check" id="wcag-233" type="checkbox"> Animações podem ser desativadas.</label><a href="6_referencias.html#ref-wcag-60">[60]</a>
 
 <h3>2.4 Navegável</h3>
 
-<label><input class="wcag-check" id="wcag-241" type="checkbox"> Existe mecanismo para pular blocos repetitivos.</label><br>
-<label><input class="wcag-check" id="wcag-242" type="checkbox"> Todas as páginas possuem título.</label><br>
-<label><input class="wcag-check" id="wcag-243" type="checkbox"> A ordem de foco é lógica.</label><br>
-<label><input class="wcag-check" id="wcag-244" type="checkbox"> Os links possuem propósito claro.</label><br>
-<label><input class="wcag-check" id="wcag-247" type="checkbox"> O foco do teclado é visível.</label>
+<label><input class="wcag-check" id="wcag-241" type="checkbox"> Existe mecanismo para pular blocos repetitivos.</label><a href="6_referencias.html#ref-wcag-61">[61]</a><br>
+<label><input class="wcag-check" id="wcag-242" type="checkbox"> Todas as páginas possuem título.</label><a href="6_referencias.html#ref-wcag-62">[62]</a><br>
+<label><input class="wcag-check" id="wcag-243" type="checkbox"> A ordem de foco é lógica.</label><a href="6_referencias.html#ref-wcag-63">[63]</a><br>
+<label><input class="wcag-check" id="wcag-244" type="checkbox"> Os links possuem propósito claro.</label><a href="6_referencias.html#ref-wcag-64">[64]</a><br>
+<label><input class="wcag-check" id="wcag-247" type="checkbox"> O foco do teclado é visível.</label><a href="6_referencias.html#ref-wcag-65">[65]</a>
 
 <h3>2.5 Modalidades de Entrada</h3>
 
-<label><input class="wcag-check" id="wcag-251" type="checkbox"> Gestos complexos possuem alternativa simples.</label><br>
-<label><input class="wcag-check" id="wcag-257" type="checkbox"> Operações de arrastar possuem alternativa.</label><br>
-<label><input class="wcag-check" id="wcag-253" type="checkbox"> O nome acessível corresponde ao texto visível.</label><br>
-<label><input class="wcag-check" id="wcag-258" type="checkbox"> Alvos possuem tamanho mínimo adequado.</label>
+<label><input class="wcag-check" id="wcag-251" type="checkbox"> Gestos complexos possuem alternativa simples.</label><a href="6_referencias.html#ref-wcag-66">[66]</a><br>
+<label><input class="wcag-check" id="wcag-257" type="checkbox"> Operações de arrastar possuem alternativa.</label><a href="6_referencias.html#ref-wcag-67">[67]</a><br>
+<label><input class="wcag-check" id="wcag-253" type="checkbox"> O nome acessível corresponde ao texto visível.</label><a href="6_referencias.html#ref-wcag-68">[68]</a><br>
+<label><input class="wcag-check" id="wcag-258" type="checkbox"> Alvos possuem tamanho mínimo adequado.</label> <a href="6_referencias.html#ref-wcag-69">[69]</a>
 
 </details>
 
@@ -174,31 +174,31 @@ Durante a avaliação prática deste projeto, os critérios dos níveis *A* e *A
 
 <h3>3.1 Legível</h3>
 
-<label><input class="wcag-check" id="wcag-311" type="checkbox"> O idioma principal da página está definido.</label><br>
-<label><input class="wcag-check" id="wcag-312" type="checkbox"> Trechos em outros idiomas estão identificados corretamente.</label><br>
-<label><input class="wcag-check" id="wcag-313" type="checkbox"> Palavras incomuns possuem definição disponível.</label><br>
-<label><input class="wcag-check" id="wcag-314" type="checkbox"> Abreviações e siglas possuem explicação.</label><br>
-<label><input class="wcag-check" id="wcag-315" type="checkbox"> Existe versão simplificada para conteúdos complexos.</label>
+<label><input class="wcag-check" id="wcag-311" type="checkbox"> O idioma principal da página está definido.</label><a href="6_referencias.html#ref-wcag-70">[70]</a><br>
+<label><input class="wcag-check" id="wcag-312" type="checkbox"> Trechos em outros idiomas estão identificados corretamente.</label><a href="6_referencias.html#ref-wcag-71">[71]</a><br>
+<label><input class="wcag-check" id="wcag-313" type="checkbox"> Palavras incomuns possuem definição disponível.</label><a href="6_referencias.html#ref-wcag-72">[72]</a><br>
+<label><input class="wcag-check" id="wcag-314" type="checkbox"> Abreviações e siglas possuem explicação.</label><a href="6_referencias.html#ref-wcag-73">[73]</a><br>
+<label><input class="wcag-check" id="wcag-315" type="checkbox"> Existe versão simplificada para conteúdos complexos.</label><a href="6_referencias.html#ref-wcag-74">[74]</a>
 
 <h3>3.2 Previsível</h3>
 
-<label><input class="wcag-check" id="wcag-321" type="checkbox"> Receber foco não altera o contexto inesperadamente.</label><br>
-<label><input class="wcag-check" id="wcag-322" type="checkbox"> Preencher campos não provoca mudanças automáticas inesperadas.</label><br>
-<label><input class="wcag-check" id="wcag-323" type="checkbox"> A navegação é consistente entre páginas.</label><br>
-<label><input class="wcag-check" id="wcag-324" type="checkbox"> Elementos equivalentes possuem identificação consistente.</label><br>
-<label><input class="wcag-check" id="wcag-326" type="checkbox"> Os mecanismos de ajuda aparecem sempre na mesma posição.</label>
+<label><input class="wcag-check" id="wcag-321" type="checkbox"> Receber foco não altera o contexto inesperadamente.</label><a href="6_referencias.html#ref-wcag-75">[75]</a><br>
+<label><input class="wcag-check" id="wcag-322" type="checkbox"> Preencher campos não provoca mudanças automáticas inesperadas.</label><a href="6_referencias.html#ref-wcag-76">[76]</a><br>
+<label><input class="wcag-check" id="wcag-323" type="checkbox"> A navegação é consistente entre páginas.</label><a href="6_referencias.html#ref-wcag-77">[77]</a><br>
+<label><input class="wcag-check" id="wcag-324" type="checkbox"> Elementos equivalentes possuem identificação consistente.</label><a href="6_referencias.html#ref-wcag-78">[78]</a><br>
+<label><input class="wcag-check" id="wcag-326" type="checkbox"> Os mecanismos de ajuda aparecem sempre na mesma posição.</label><a href="6_referencias.html#ref-wcag-79">[79]</a>
 
 <h3>3.3 Assistência de Entrada</h3>
 
-<label><input class="wcag-check" id="wcag-331" type="checkbox"> Erros são identificados claramente.</label><br>
-<label><input class="wcag-check" id="wcag-332" type="checkbox"> Campos possuem rótulos e instruções adequadas.</label><br>
-<label><input class="wcag-check" id="wcag-333" type="checkbox"> O sistema sugere correções para erros.</label><br>
+<label><input class="wcag-check" id="wcag-331" type="checkbox"> Erros são identificados claramente.</label><a href="6_referencias.html#ref-wcag-80">[80]</a><br>
+<label><input class="wcag-check" id="wcag-332" type="checkbox"> Campos possuem rótulos e instruções adequadas.</label><a href="6_referencias.html#ref-wcag-81">[81]</a><br>
+<label><input class="wcag-check" id="wcag-333" type="checkbox"> O sistema sugere correções para erros.</label><a href="6_referencias.html#ref-wcag-82">[82]</a><br>
 
-<label><input class="wcag-check" id="wcag-334" type="checkbox"> Existe confirmação para ações críticas.</label><br>
-<label><input class="wcag-check" id="wcag-335" type="checkbox"> Existe ajuda contextualizada ao usuário.</label><br>
-<label><input class="wcag-check" id="wcag-336" type="checkbox"> O usuário pode revisar informações antes do envio final.</label><br>
-<label><input class="wcag-check" id="wcag-337" type="checkbox"> Informações já fornecidas não precisam ser digitadas novamente.</label><br>
-<label><input class="wcag-check" id="wcag-338" type="checkbox"> O login não depende de testes cognitivos complexos.</label>
+<label><input class="wcag-check" id="wcag-334" type="checkbox"> Existe confirmação para ações críticas.</label><a href="6_referencias.html#ref-wcag-83">[83]</a><br>
+<label><input class="wcag-check" id="wcag-335" type="checkbox"> Existe ajuda contextualizada ao usuário.</label><a href="6_referencias.html#ref-wcag-84">[84]</a><br>
+<label><input class="wcag-check" id="wcag-336" type="checkbox"> O usuário pode revisar informações antes do envio final.</label><a href="6_referencias.html#ref-wcag-85">[85]</a><br>
+<label><input class="wcag-check" id="wcag-337" type="checkbox"> Informações já fornecidas não precisam ser digitadas novamente.</label><a href="6_referencias.html#ref-wcag-86">[86]</a><br>
+<label><input class="wcag-check" id="wcag-338" type="checkbox"> O login não depende de testes cognitivos complexos.</label><a href="6_referencias.html#ref-wcag-87">[87]</a>
 
 </details>
 
@@ -209,15 +209,15 @@ Durante a avaliação prática deste projeto, os critérios dos níveis *A* e *A
 
 <h3>4.1 Compatível</h3>
 
-<label><input class="wcag-check" id="wcag-412" type="checkbox"> Componentes informam corretamente nome, função e estado.</label><br>
-<label><input class="wcag-check" id="wcag-413" type="checkbox"> Mensagens de status são anunciadas para tecnologias assistivas.</label>
+<label><input class="wcag-check" id="wcag-412" type="checkbox"> Componentes informam corretamente nome, função e estado.</label><a href="6_referencias.html#ref-wcag-88">[88]</a><br>
+<label><input class="wcag-check" id="wcag-413" type="checkbox"> Mensagens de status são anunciadas para tecnologias assistivas.</label> <a href="6_referencias.html#ref-wcag-89">[89]</a>
 
 <h3>Compatibilidade Geral</h3>
 
-<label><input class="wcag-check" id="wcag-robusto-1" type="checkbox"> O sistema funciona adequadamente em diferentes navegadores.</label><br>
-<label><input class="wcag-check" id="wcag-robusto-2" type="checkbox"> O sistema funciona adequadamente com leitores de tela.</label><br>
-<label><input class="wcag-check" id="wcag-robusto-3" type="checkbox"> O sistema funciona adequadamente em dispositivos móveis.</label><br>
-<label><input class="wcag-check" id="wcag-robusto-4" type="checkbox"> Mudanças dinâmicas são comunicadas corretamente ao usuário.</label>
+<label><input class="wcag-check" id="wcag-robusto-1" type="checkbox"> O sistema funciona adequadamente em diferentes navegadores.</label><a href="6_referencias.html#ref-wcag-90">[90]</a><br>
+<label><input class="wcag-check" id="wcag-robusto-2" type="checkbox"> O sistema funciona adequadamente com leitores de tela.</label><a href="6_referencias.html#ref-wcag-91">[91]</a><br>
+<label><input class="wcag-check" id="wcag-robusto-3" type="checkbox"> O sistema funciona adequadamente em dispositivos móveis.</label><a href="6_referencias.html#ref-wcag-92">[92]</a><br>
+<label><input class="wcag-check" id="wcag-robusto-4" type="checkbox"> Mudanças dinâmicas são comunicadas corretamente ao usuário.</label><a href="6_referencias.html#ref-wcag-93">[93]</a>
 
 </details>
 
@@ -321,6 +321,7 @@ Durante a avaliação prática deste projeto, os critérios dos níveis *A* e *A
             "wcag-413"
         ],
         AAA: [
+            "wcag-226","wcag-233",
             "wcag-126-1",
             "wcag-315",
             "wcag-335"
