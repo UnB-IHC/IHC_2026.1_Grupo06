@@ -1,20 +1,18 @@
 # <img src="imagens/manual.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 2. Guia de Acessibilidade
 
-Este guia reúne os principais parâmetros e regulamentações de acessibilidade digital adotados no cenário nacional e internacional. O objetivo é estabelecer uma base sólida de critérios de verificação para garantir que interfaces atendam a todos os perfis de usuários.
+## 2.1 Diretrizes e Normas Adotadas
+
+As diretrizes de acessibilidade adotadas neste projeto são fundamentadas na WCAG (Web Content Accessibility Guidelines), desenvolvida pelo W3C, e na ABNT NBR 17225:2025, que estabelece requisitos de acessibilidade para conteúdos e aplicações Web no contexto brasileiro. Essas referências fornecem critérios e recomendações para o desenvolvimento e a avaliação de interfaces digitais mais inclusivas e acessíveis.
+
+A WCAG organiza suas recomendações em quatro princípios fundamentais — Perceptível, Operável, Compreensível e Robusto — e define critérios de sucesso classificados em três níveis de conformidade: A, AA e AAA. A ABNT NBR 17225:2025 complementa essas diretrizes ao consolidar requisitos de acessibilidade aplicáveis ao contexto brasileiro e incorporar recomendações voltadas à implementação e avaliação de conteúdos e aplicações Web. Neste trabalho, serão priorizados os níveis de conformidade A e AA, por representarem os requisitos mínimos e recomendados mais amplamente adotados nas avaliações de acessibilidade digital.
 
 ---
 
-## <img src="imagens/norm.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 2.1 Diretrizes e Normas Adotadas
-> <img src="imagens/law.png" alt="" width="18" style="vertical-align: middle; margin-right: 4px;"> **Foco em Acessibilidade:** Detalhe aqui como os padrões eMAG (Governo Eletrônico) e WCAG (W3C) conversam entre si e quais níveis de conformidade (A, AA, AAA) são o alvo desta análise.
+## 2.2 Critérios de Sucesso Principais
 
-Escreva o conteúdo dos subtópicos da norma aqui...
+Os Critérios de Sucesso da WCAG representam requisitos verificáveis utilizados para avaliar a acessibilidade de um sistema digital. Cada critério está associado a um dos quatro princípios fundamentais da WCAG and classificado em um dos níveis de conformidade: A, **AA ou AAA.
 
----
-
-## <img src="imagens/criteria.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 2.2 Critérios de Sucesso Principais
-Os Critérios de Sucesso da WCAG representam requisitos verificáveis utilizados para avaliar a acessibilidade de um sistema digital. Cada critério está associado a um dos quatro princípios fundamentais da WCAG e classificado em um dos níveis de conformidade: *A, **AA* ou *AAA*.
-
-O nível *A* representa os requisitos mínimos de acessibilidade, o nível *AA* contempla boas práticas amplamente recomendadas e frequentemente exigidas por legislação, enquanto o nível *AAA* corresponde ao mais alto grau de acessibilidade, sendo aplicado quando tecnicamente viável.
+O nível A representa os requisitos mínimos de acessibilidade, o nível AA contempla boas práticas amplamente recomendadas e frequentemente exigidas por legislação, enquanto o nível AAA corresponde ao mais alto grau de acessibilidade, sendo aplicado quando tecnicamente viável.
 
 ---
 
@@ -22,17 +20,17 @@ O nível *A* representa os requisitos mínimos de acessibilidade, o nível *AA* 
 
 O conteúdo deve ser apresentado de forma que todos os usuários consigam percebê-lo, independentemente de limitações visuais, auditivas ou cognitivas.
 
-| Critério | Descrição | Beneficia | Nível |
-|-----------|-----------|-----------|---------|
-| 1.1.1 Conteúdo Não Textual | Imagens, ícones, gráficos e outros elementos visuais devem possuir alternativas textuais equivalentes. | Pessoas cegas e usuários de leitores de tela. | A |
-| 1.2.2 Legendas | Vídeos gravados devem possuir legendas sincronizadas para conteúdos falados. | Pessoas surdas ou com deficiência auditiva. | A |
-| 1.2.4 Legendas para Conteúdo ao Vivo | Transmissões ao vivo devem disponibilizar legendas em tempo real. | Pessoas surdas. | AA |
-| 1.2.5 Audiodescrição | Informações visuais relevantes devem ser descritas verbalmente. | Pessoas cegas ou com baixa visão. | AA |
-| 1.3.1 Informação e Relações | Estruturas visuais devem ser representadas semanticamente no código. | Usuários de tecnologias assistivas. | A |
-| 1.4.1 Uso da Cor | A cor não deve ser o único meio para transmitir informação. | Pessoas com daltonismo. | A |
-| 1.4.3 Contraste Mínimo | Textos devem possuir contraste adequado em relação ao fundo. | Pessoas com baixa visão e idosos. | AA |
-| 1.4.10 Reflow | O conteúdo deve adaptar-se a diferentes tamanhos de tela sem exigir rolagem horizontal excessiva. | Usuários com ampliação de tela. | AA |
-| 1.4.11 Contraste de Componentes | Botões, campos e elementos interativos devem possuir contraste adequado. | Pessoas com baixa visão. | AA |
+| Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
+| :--- | :--- | :--- | :--- | :--- |
+| 1.1.1 Conteúdo Não Textual | Imagens, ícones, gráficos e outros elementos visuais devem possuir alternativas textuais equivalentes. | Pessoas cegas e usuários de leitores de tela. | A | 5.2.1 – 5.2.4 e 5.2.6 |
+| 1.2.2 Legendas | Vídeos gravados devem possuir legendas sincronizadas para conteúdos falados. | Pessoas surdas ou com deficiência auditiva. | A | 5.14.2 |
+| 1.2.4 Legendas para Conteúdo ao Vivo | Transmissões ao vivo devem disponibilizar legendas em tempo real. | Pessoas surdas. | AA | 5.14.9 |
+| 1.2.5 Audiodescrição | Informações visuais relevantes devem ser descritas verbalmente. | Pessoas cegas ou com baixa visão. | AA | 5.14.4 |
+| 1.3.1 Informação e Relações | Estruturas visuais devem ser representadas semanticamente no código. | Usuários de tecnologias assistivas. | A | 5.3.1, 5.4.1, 5.5.1, 5.6.1 |
+| 1.4.1 Uso da Cor | A cor não deve ser o único meio para transmitir informação. | Pessoas com daltonismo. | A | 5.11.1 |
+| 1.4.3 Contraste Mínimo | Textos devem possuir contraste adequado em relação ao fundo. | Pessoas com baixa visão e idosos. | AA | 5.11.3 |
+| 1.4.10 Reflow | O conteúdo deve adaptar-se a diferentes tamanhos de tela sem exigir rolagem horizontal excessiva. | Usuários com ampliação de tela. | AA | 5.10.4 |
+| 1.4.11 Contraste de Componentes | Botões, campos e elementos interativos devem possuir contraste adequado. | Pessoas com baixa visão. | AA | 5.11.4 e 5.11.5 |
 
 ---
 
@@ -40,34 +38,35 @@ O conteúdo deve ser apresentado de forma que todos os usuários consigam perceb
 
 Todos os componentes da interface devem poder ser utilizados pelos usuários, independentemente do dispositivo ou método de interação empregado.
 
-| Critério | Descrição | Beneficia | Nível |
-|-----------|-----------|-----------|---------|
-| 2.1.1 Teclado | Todas as funcionalidades devem ser acessíveis sem o uso do mouse. | Pessoas com deficiência motora e usuários de leitores de tela. | A |
-| 2.1.2 Sem Armadilha de Teclado | O usuário deve conseguir entrar e sair de qualquer elemento usando apenas o teclado. | Usuários de teclado. | A |
-| 2.2.1 Ajuste de Tempo | Limites de tempo devem poder ser ajustados ou ampliados. | Pessoas com deficiência cognitiva. | A |
-| 2.2.2 Pausar, Parar ou Ocultar | Conteúdos em movimento devem poder ser interrompidos. | Pessoas com TDAH e deficiência cognitiva. | A |
-| 2.3.1 Três Flashes ou Abaixo do Limite | O conteúdo não pode apresentar flashes que provoquem convulsões. | Pessoas com epilepsia fotossensível. | A |
-| 2.4.1 Ignorar Blocos | Deve existir mecanismo para pular menus e conteúdos repetitivos. | Usuários de teclado e leitores de tela. | A |
-| 2.4.2 Página com Título | Cada página deve possuir título claro e descritivo. | Todos os usuários. | A |
-| 2.4.7 Foco Visível | O foco do teclado deve ser claramente identificável. | Usuários de teclado. | AA |
-| 2.5.8 Tamanho Mínimo do Alvo | Elementos clicáveis devem possuir área mínima adequada para interação. | Pessoas com mobilidade reduzida. | AA |
+| Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
+| :--- | :--- | :--- | :--- | :--- |
+| 2.1.1 Teclado | Todas as funcionalidades devem ser acessíveis sem o uso do mouse. | Pessoas com deficiência motora e usuários de leitores de tela. | A | 5.1.12 e 5.1.13 |
+| 2.1.2 Sem Armadilha de Teclado | O usuário deve conseguir entrar e sair de qualquer elemento usando apenas o teclado. | Usuários de teclado. | A | 5.1.6 |
+| 2.2.1 Ajuste de Tempo | Limites de tempo devem poder ser ajustados ou ampliados. | Pessoas com deficiência cognitiva. | A | 5.16.2 |
+| 2.2.2 Pausar, Parar ou Ocultar | Conteúdos em movimento devem poder ser interrompidos. | Pessoas com TDAH e deficiência cognitiva. | A | 5.15.1 |
+| 2.3.1 Três Flashes ou Abaixo do Limite | O conteúdo não pode apresentar flashes que provoquem convulsões. | Pessoas com epilepsia fotossensível. | A | 5.15.4 |
+| 2.4.1 Ignorar Blocos | Deve existir mecanismo para pular menus e conteúdos repetitivos. | Usuários de teclado e leitores de tela. | A | 5.7.12 |
+| 2.4.2 Página com Título | Cada página deve possuir título claro e descritivo. | Todos os usuários. | A | 5.13.1 |
+| 2.4.7 Foco Visível | O foco do teclado deve ser claramente identificável. | Usuários de teclado. | AA | 5.1.1 |
+| 2.5.8 Tamanho Mínimo do Alvo | Elementos clicáveis devem possuir área mínima adequada para interação. | Pessoas com mobilidade reduzida. | AA | 5.8.7 |
 
 ---
 
 ### 3. Princípio Compreensível
+
 As informações e o funcionamento da interface devem ser fáceis de entender e previsíveis para os usuários.
 
-| Critério | Descrição | Beneficia | Nível |
-|-----------|-----------|-----------|---------|
-| 3.1.1 Idioma da Página | O idioma principal da página deve ser identificado corretamente. | Usuários de leitores de tela. | A |
-| 3.1.2 Idioma de Partes | Trechos em idiomas diferentes devem ser marcados adequadamente. | Usuários de tecnologias assistivas. | AA |
-| 3.2.1 Foco Não Deve Alterar Contexto | Receber foco não deve provocar mudanças inesperadas. | Pessoas com deficiência cognitiva. | A |
-| 3.2.2 Entrada Não Deve Alterar Contexto | O preenchimento de campos não deve gerar alterações automáticas inesperadas. | Pessoas com deficiência cognitiva. | A |
-| 3.2.3 Navegação Consistente | Menus e mecanismos de navegação devem manter consistência entre páginas. | Pessoas com autismo e TDAH. | AA |
-| 3.3.1 Identificação de Erros | Erros devem ser apresentados claramente ao usuário. | Todos os usuários. | A |
-| 3.3.2 Rótulos e Instruções | Campos devem possuir instruções adequadas de preenchimento. | Pessoas com deficiência cognitiva. | A |
-| 3.3.3 Sugestão de Correção | O sistema deve indicar como corrigir erros identificados. | Todos os usuários. | AA |
-| 3.3.4 Prevenção de Erros | Operações importantes devem permitir confirmação ou revisão. | Todos os usuários. | AA |
+| Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
+| :--- | :--- | :--- | :--- | :--- |
+| 3.1.1 Idioma da Página | O idioma principal da página deve ser identificado corretamente. | Usuários de leitores de tela. | A | 5.13.2 |
+| 3.1.2 Idioma de Partes | Trechos em idiomas diferentes devem ser marcados adequadamente. | Usuários de tecnologias assistivas. | AA | 5.13.3 |
+| 3.2.1 Foco Não Deve Alterar Contexto | Receber foco não deve provocar mudanças inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.9 |
+| 3.2.2 Entrada Não Deve Alterar Contexto | O preenchimento de campos não deve gerar alterações automáticas inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.10 |
+| 3.2.3 Navegação Consistente | Menus e mecanismos de navegação devem manter consistência entre páginas. | Pessoas com autismo e TDAH. | AA | 5.7.15 |
+| 3.3.1 Identificação de Erros | Erros devem ser apresentados claramente ao usuário. | Todos os usuários. | A | 5.9.9 |
+| 3.3.2 Rótulos e Instruções | Campos devem possuir instruções adequadas de preenchimento. | Pessoas com deficiência cognitiva. | A | 5.9.1 e 5.9.4 |
+| 3.3.3 Sugestão de Correção | O sistema deve indicar como corrigir erros identificados. | Todos os usuários. | AA | 5.9.10 |
+| 3.3.4 Prevenção de Erros | Operações importantes devem permitir confirmação ou revisão. | Todos os usuários. | AA | 5.9.12 |
 
 ---
 
@@ -75,10 +74,10 @@ As informações e o funcionamento da interface devem ser fáceis de entender e 
 
 O conteúdo deve ser compatível com diferentes navegadores, dispositivos e tecnologias assistivas.
 
-| Critério | Descrição | Beneficia | Nível |
-|-----------|-----------|-----------|---------|
-| 4.1.2 Nome, Função e Valor | Componentes devem informar corretamente seu nome, função e estado. | Usuários de leitores de tela. | A |
-| 4.1.3 Mensagens de Status | Mudanças dinâmicas devem ser anunciadas adequadamente. | Pessoas cegas e usuários de leitores de tela. | AA |
+| Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
+| :--- | :--- | :--- | :--- | :--- |
+| 4.1.2 Nome, Função e Valor | Componentes devem informar corretamente seu nome, função e estado. | Usuários de leitores de tela. | A | 5.13.10 e 5.13.12 |
+| 4.1.3 Mensagens de Status | Mudanças dinâmicas devem ser anunciadas adequadamente. | Pessoas cegas e usuários de leitores de tela. | AA | 5.13.8 |
 
 ---
 
