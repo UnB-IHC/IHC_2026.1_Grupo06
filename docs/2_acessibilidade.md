@@ -22,15 +22,15 @@ O conteúdo deve ser apresentado de forma que todos os usuários consigam perceb
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1.1.1 Conteúdo Não Textual | Imagens, ícones, gráficos e outros elementos visuais devem possuir alternativas textuais equivalentes. | Pessoas cegas e usuários de leitores de tela. | A | 5.2.1 – 5.2.4 e 5.2.6 |
-| 1.2.2 Legendas | Vídeos gravados devem possuir legendas sincronizadas para conteúdos falados. | Pessoas surdas ou com deficiência auditiva. | A | 5.14.2 |
-| 1.2.4 Legendas para Conteúdo ao Vivo | Transmissões ao vivo devem disponibilizar legendas em tempo real. | Pessoas surdas. | AA | 5.14.9 |
-| 1.2.5 Audiodescrição | Informações visuais relevantes devem ser descritas verbalmente. | Pessoas cegas ou com baixa visão. | AA | 5.14.4 |
-| 1.3.1 Informação e Relações | Estruturas visuais devem ser representadas semanticamente no código. | Usuários de tecnologias assistivas. | A | 5.3.1, 5.4.1, 5.5.1, 5.6.1 |
-| 1.4.1 Uso da Cor | A cor não deve ser o único meio para transmitir informação. | Pessoas com daltonismo. | A | 5.11.1 |
-| 1.4.3 Contraste Mínimo | Textos devem possuir contraste adequado em relação ao fundo. | Pessoas com baixa visão e idosos. | AA | 5.11.3 |
-| 1.4.10 Reflow | O conteúdo deve adaptar-se a diferentes tamanhos de tela sem exigir rolagem horizontal excessiva. | Usuários com ampliação de tela. | AA | 5.10.4 |
-| 1.4.11 Contraste de Componentes | Botões, campos e elementos interativos devem possuir contraste adequado. | Pessoas com baixa visão. | AA | 5.11.4 e 5.11.5 |
+| 1.1.1 Conteúdo Não Textual | Imagens, ícones, gráficos e outros elementos visuais devem possuir alternativas textuais equivalentes. | Pessoas cegas e usuários de leitores de tela. | A | 5.2.1 – 5.2.4 e 5.2.6 [[1]](6_referencias.md#ref-nbr-1)|
+| 1.2.2 Legendas | Vídeos gravados devem possuir legendas sincronizadas para conteúdos falados. | Pessoas surdas ou com deficiência auditiva. | A | 5.14.2 [[2]](6_referencias.md#ref-nbr-2)|
+| 1.2.4 Legendas para Conteúdo ao Vivo | Transmissões ao vivo devem disponibilizar legendas em tempo real. | Pessoas surdas. | AA | 5.14.9 [[3]](6_referencias.md#ref-nbr-3)|
+| 1.2.5 Audiodescrição | Informações visuais relevantes devem ser descritas verbalmente. | Pessoas cegas ou com baixa visão. | AA | 5.14.4 [[4]](6_referencias.md#ref-nbr-4)|
+| 1.3.1 Informação e Relações | Estruturas visuais devem ser representadas semanticamente no código. | Usuários de tecnologias assistivas. | A | 5.3.1 [[5]](6_referencias.md#ref-nbr-5), 5.4.1 [[5]](6_referencias.md#ref-nbr-5), 5.5.1 [[6]](6_referencias.md#ref-nbr-6), 5.6.1 [[7]](6_referencias.md#ref-nbr-7)|
+| 1.4.1 Uso da Cor | A cor não deve ser o único meio para transmitir informação. | Pessoas com daltonismo. | A | 5.11.1 [[8]](6_referencias.md#ref-nbr-8)|
+| 1.4.3 Contraste Mínimo | Textos devem possuir contraste adequado em relação ao fundo. | Pessoas com baixa visão e idosos. | AA | 5.11.3 [[9]](6_referencias.md#ref-nbr-9)|
+| 1.4.10 Reflow | O conteúdo deve adaptar-se a diferentes tamanhos de tela sem exigir rolagem horizontal excessiva. | Usuários com ampliação de tela. | AA | 5.10.4 [[10]](6_referencias.md#ref-nbr-10)|
+| 1.4.11 Contraste de Componentes | Botões, campos e elementos interativos devem possuir contraste adequado. | Pessoas com baixa visão. | AA | 5.11.4 e 5.11.5 [[11]](6_referencias.md#ref-nbr-11)|
 
 ---
 
@@ -40,15 +40,15 @@ Todos os componentes da interface devem poder ser utilizados pelos usuários, in
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
-| 2.1.1 Teclado | Todas as funcionalidades devem ser acessíveis sem o uso do mouse. | Pessoas com deficiência motora e usuários de leitores de tela. | A | 5.1.12 e 5.1.13 |
-| 2.1.2 Sem Armadilha de Teclado | O usuário deve conseguir entrar e sair de qualquer elemento usando apenas o teclado. | Usuários de teclado. | A | 5.1.6 |
-| 2.2.1 Ajuste de Tempo | Limites de tempo devem poder ser ajustados ou ampliados. | Pessoas com deficiência cognitiva. | A | 5.16.2 |
-| 2.2.2 Pausar, Parar ou Ocultar | Conteúdos em movimento devem poder ser interrompidos. | Pessoas com TDAH e deficiência cognitiva. | A | 5.15.1 |
-| 2.3.1 Três Flashes ou Abaixo do Limite | O conteúdo não pode apresentar flashes que provoquem convulsões. | Pessoas com epilepsia fotossensível. | A | 5.15.4 |
-| 2.4.1 Ignorar Blocos | Deve existir mecanismo para pular menus e conteúdos repetitivos. | Usuários de teclado e leitores de tela. | A | 5.7.12 |
-| 2.4.2 Página com Título | Cada página deve possuir título claro e descritivo. | Todos os usuários. | A | 5.13.1 |
-| 2.4.7 Foco Visível | O foco do teclado deve ser claramente identificável. | Usuários de teclado. | AA | 5.1.1 |
-| 2.5.8 Tamanho Mínimo do Alvo | Elementos clicáveis devem possuir área mínima adequada para interação. | Pessoas com mobilidade reduzida. | AA | 5.8.7 |
+| 2.1.1 Teclado | Todas as funcionalidades devem ser acessíveis sem o uso do mouse. | Pessoas com deficiência motora e usuários de leitores de tela. | A | 5.1.12 e 5.1.13 [[12]](6_referencias.md#ref-nbr-12)|
+| 2.1.2 Sem Armadilha de Teclado | O usuário deve conseguir entrar e sair de qualquer elemento usando apenas o teclado. | Usuários de teclado. | A | 5.1.6 [[13]](6_referencias.md#ref-nbr-13)|
+| 2.2.1 Ajuste de Tempo | Limites de tempo devem poder ser ajustados ou ampliados. | Pessoas com deficiência cognitiva. | A | 5.16.2 [[14]](6_referencias.md#ref-nbr-14)|
+| 2.2.2 Pausar, Parar ou Ocultar | Conteúdos em movimento devem poder ser interrompidos. | Pessoas com TDAH e deficiência cognitiva. | A | 5.15.1 [[15]](6_referencias.md#ref-nbr-15)|
+| 2.3.1 Três Flashes ou Abaixo do Limite | O conteúdo não pode apresentar flashes que provoquem convulsões. | Pessoas com epilepsia fotossensível. | A | 5.15.4 [[16]](6_referencias.md#ref-nbr-16)|
+| 2.4.1 Ignorar Blocos | Deve existir mecanismo para pular menus e conteúdos repetitivos. | Usuários de teclado e leitores de tela. | A | 5.7.12 [17](6_referencias.md#ref-nbr-17)|
+| 2.4.2 Página com Título | Cada página deve possuir título claro e descritivo. | Todos os usuários. | A | 5.13.1 [[18]](6_referencias.md#ref-nbr-18)|
+| 2.4.7 Foco Visível | O foco do teclado deve ser claramente identificável. | Usuários de teclado. | AA | 5.1.1 [[19]](6_referencias.md#ref-nbr-19)|
+| 2.5.8 Tamanho Mínimo do Alvo | Elementos clicáveis devem possuir área mínima adequada para interação. | Pessoas com mobilidade reduzida. | AA | 5.8.7 [[20]](6_referencias.md#ref-nbr-20)|
 
 ---
 
@@ -58,15 +58,15 @@ As informações e o funcionamento da interface devem ser fáceis de entender e 
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
-| 3.1.1 Idioma da Página | O idioma principal da página deve ser identificado corretamente. | Usuários de leitores de tela. | A | 5.13.2 |
-| 3.1.2 Idioma de Partes | Trechos em idiomas diferentes devem ser marcados adequadamente. | Usuários de tecnologias assistivas. | AA | 5.13.3 |
-| 3.2.1 Foco Não Deve Alterar Contexto | Receber foco não deve provocar mudanças inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.9 |
-| 3.2.2 Entrada Não Deve Alterar Contexto | O preenchimento de campos não deve gerar alterações automáticas inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.10 |
-| 3.2.3 Navegação Consistente | Menus e mecanismos de navegação devem manter consistência entre páginas. | Pessoas com autismo e TDAH. | AA | 5.7.15 |
-| 3.3.1 Identificação de Erros | Erros devem ser apresentados claramente ao usuário. | Todos os usuários. | A | 5.9.9 |
-| 3.3.2 Rótulos e Instruções | Campos devem possuir instruções adequadas de preenchimento. | Pessoas com deficiência cognitiva. | A | 5.9.1 e 5.9.4 |
-| 3.3.3 Sugestão de Correção | O sistema deve indicar como corrigir erros identificados. | Todos os usuários. | AA | 5.9.10 |
-| 3.3.4 Prevenção de Erros | Operações importantes devem permitir confirmação ou revisão. | Todos os usuários. | AA | 5.9.12 |
+| 3.1.1 Idioma da Página | O idioma principal da página deve ser identificado corretamente. | Usuários de leitores de tela. | A | 5.13.2 [[21]](6_referencias.md#ref-nbr-21)|
+| 3.1.2 Idioma de Partes | Trechos em idiomas diferentes devem ser marcados adequadamente. | Usuários de tecnologias assistivas. | AA | 5.13.3 [[22]](6_referencias.md#ref-nbr-22)|
+| 3.2.1 Foco Não Deve Alterar Contexto | Receber foco não deve provocar mudanças inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.9 [[23]](6_referencias.md#ref-nbr-23)|
+| 3.2.2 Entrada Não Deve Alterar Contexto | O preenchimento de campos não deve gerar alterações automáticas inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.10 [[24]](6_referencias.md#ref-nbr-24)|
+| 3.2.3 Navegação Consistente | Menus e mecanismos de navegação devem manter consistência entre páginas. | Pessoas com autismo e TDAH. | AA | 5.7.15 [[25]](6_referencias.md#ref-nbr-25)|
+| 3.3.1 Identificação de Erros | Erros devem ser apresentados claramente ao usuário. | Todos os usuários. | A | 5.9.9 [[26]](6_referencias.md#ref-nbr-26)|
+| 3.3.2 Rótulos e Instruções | Campos devem possuir instruções adequadas de preenchimento. | Pessoas com deficiência cognitiva. | A | 5.9.1 e 5.9.4 [[27]](6_referencias.md#ref-nbr-27)|
+| 3.3.3 Sugestão de Correção | O sistema deve indicar como corrigir erros identificados. | Todos os usuários. | AA | 5.9.10 [[28]](6_referencias.md#ref-nbr-27)|
+| 3.3.4 Prevenção de Erros | Operações importantes devem permitir confirmação ou revisão. | Todos os usuários. | AA | 5.9.12 [[29]](6_referencias.md#ref-nbr-29)|
 
 ---
 
@@ -76,8 +76,8 @@ O conteúdo deve ser compatível com diferentes navegadores, dispositivos e tecn
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
-| 4.1.2 Nome, Função e Valor | Componentes devem informar corretamente seu nome, função e estado. | Usuários de leitores de tela. | A | 5.13.10 e 5.13.12 |
-| 4.1.3 Mensagens de Status | Mudanças dinâmicas devem ser anunciadas adequadamente. | Pessoas cegas e usuários de leitores de tela. | AA | 5.13.8 |
+| 4.1.2 Nome, Função e Valor | Componentes devem informar corretamente seu nome, função e estado. | Usuários de leitores de tela. | A | 5.13.10 e 5.13.12 [[30]](6_referencias.md#ref-nbr-30)|
+| 4.1.3 Mensagens de Status | Mudanças dinâmicas devem ser anunciadas adequadamente. | Pessoas cegas e usuários de leitores de tela. | AA | 5.13.8 [[31]](6_referencias.md#ref-nbr-31)|
 
 ---
 
