@@ -4,7 +4,7 @@ Relato prático da execução das avaliações. Esta página documenta o ecossis
 
 ---
 
-## <img src="imagens/website.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.1 O Site Avaliado
+## <img src="imagens/website.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.1 O site avaliado
 
 > <img src="imagens/info.png" alt="" width="18" style="vertical-align: middle; margin-right: 4px;"> **Contexto do Sistema:** 
 > 
