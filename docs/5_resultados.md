@@ -403,7 +403,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 <p style="text-align: justify;">Após a aplicação integral do checklist, os dados foram processados para gerar o Dashboard de Acessibilidade do portal HMAB, que demonstra o percentual de sucesso do site em relação aos três níveis de conformidade estabelecidos pelo WCAG 2.2:</p>
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/IHC_2026.1_Grupo06/docs/imagens/dashboard_acessibilidade.jpeg" alt="Dashboard de Grau de Conformidade por Níveis de Sucesso (A, AA, AAA)" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 5px;">
+  <img src="imagens/dashboard_acessibilidade.jpeg" alt="Dashboard de Grau de Conformidade por Níveis de Sucesso (A, AA, AAA)" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 5px;">
 </div>
 
 ---
