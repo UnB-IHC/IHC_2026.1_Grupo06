@@ -10,3 +10,5 @@
 * 📄 <a href="documentos/formulario_sus.pdf" target="_blank">Baixar Formulário SUS (PDF)</a>
 
 * 📄 <a href="documentos/relatorio_acessibilidade.pdf" target="_blank">Baixar Relatório de Acessibilidade (PDF)</a>
+
+* 📄 <a href="documentos/relatorio_usuario.pdf" target="_blank">Baixar Relatório de Usabilidade (PDF)</a>

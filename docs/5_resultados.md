@@ -418,7 +418,196 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 ---
 
 ## <img src="imagens/barrier.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 5.2 Resultados do Teste de Usabilidade
-Escreva seu conteúdo aqui...
+
+<p style="text-align: justify;">Esta seção apresenta a análise detalhada, sob as perspectivas quantitativa e qualitativa, dos dados coletados durante o teste de usabilidade empírico realizado com uma usuária real do portal do Hospital Militar de Área de Brasília (HMAB). O objetivo desta etapa foi mapear o comportamento biológico e cognitivo do público-alvo diante da interface mobile, identificando barreiras ergonômicas e falhas de acessibilidade em tempo real de execução.</p>
+
+---
+
+### 👥 Perfil do Participante e Aspectos Metodológicos
+
+<p style="text-align: justify;">Alinhado com as recomendações de representatividade de público-alvo em sistemas de saúde pública, o teste foi conduzido com uma participante idosa de 75 anos de idade, paciente ativa do hospital e dependente do plano de saúde FUSEX. A usuária possui baixa familiaridade tecnológica, não utiliza computadores e possui o smartphone como único meio de acesso à internet — dependendo frequentemente do auxílio de terceiros (netas) para interagir com o site. Adicionalmente, apresenta limitações visuais típicas da idade, demandando o uso de óculos de grau e aplicação contínua de zoom manual na tela.</p>
+
+<blockquote>
+  <p style="text-align: justify;"><strong>Compromisso Ético:</strong> Antes do início das sessões, a participante foi devidamente instruída sobre o caráter estritamente acadêmico da atividade e assinou o Termo de Consentimento Livre e Esclarecido (TCLE), autorizando a captura de áudio, vídeo e telas para a extração das métricas de Interação Humano-Computador (IHC).</p>
+</blockquote>
+
+---
+
+### 📊 Análise Quantitativa: Desempenho por Cenário de Tarefa
+
+<p style="text-align: justify;">A avaliação foi estruturada através de 4 cenários baseados em metas contextuais do cotidiano da paciente. Durante as interações, foram monitorados o tempo de execução (eficiência), o número de erros cometidos, o status de conclusão (eficácia) e a escala de dificuldade percebida (satisfação de 1 a 5, onde 5 representa dificuldade máxima):</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify; margin-top: 15px;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 18%;">Cenário</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 30%;">Objetivo / Tarefa</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Status (Eficácia)</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 10%;">Tempo</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 10%;">Erros</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 17%;">Dificuldade (1 a 5)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;"><strong>Cenário 1:<br>Contato</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Encontrar o telefone de contato da Recepção ou do Laboratório do hospital para sanar dúvidas.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; color: #d9534f;"><strong>Falha Completa<br>(Desistência)</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">1 min<br>(60s)</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; text-align: center;">1</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Nota: 5<br>(Máxima)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;"><strong>Cenário 2:<br>Agendamento</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Iniciar o fluxo de marcação de uma consulta médica com a especialidade de Ortopedia.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; color: #f0ad4e;"><strong>Sucesso Parcial<br>(Fluxo incompleto)</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">4 min<br>(240s)</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; text-align: center;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Nota: 4<br>(Elevada)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;"><strong>Cenário 3:<br>Autenticação</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Acessar a área restrita do paciente (efetuar login) para obter o resultado de um exame laboratorial.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; color: #5bc85c;"><strong>Sucesso</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">3 min<br>(180s)</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; text-align: center;">2</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Nota: 5<br>(Máxima)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;"><strong>Cenário 4:<br>Acessibilidade</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Localizar ferramentas nativas no site para aumentar o tamanho do texto ou melhorar o contraste cromático.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; color: #d9534f;"><strong>Falha Prática<br>(Usou zoom externo)</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">1 min<br>(60s)</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top; text-align: center;">1</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; vertical-align: top;">Nota: 5<br>(Máxima)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="text-align: justify; margin-top: 20px;">O consolidado estatístico das métricas de usabilidade aponta os seguintes indicadores de severidade:</p>
+
+<ul>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Taxa de Sucesso Global (Eficácia):</strong> 75% das tarefas foram concluídas (3 de 4). Contudo, há um alerta grave para o Cenário 1 (ocultação total de dados básicos de contato) e para o Cenário 4, onde a conclusão só ocorreu porque a usuária recorreu a ferramentas externas ao site (zoom mecânico do navegador móvel).</li>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Tempo Total de Teste:</strong> 540 segundos (9 minutos) acumulados para a realização dos quatro cenários simples.</li>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Tempo Médio por Tarefa (Eficiência):</strong> 135 segundos por fluxo. O Cenário 2 (Agendamento) demandou um tempo excessivo de 240 segundos devido a falhas críticas estruturais na jornada de navegação.</li>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Média de Erros por Tarefa:</strong> 2,0 erros por fluxo. O fluxo de agendamento desponta isolado como o ponto mais crítico da interface, acumulando um total de 4 erros sozinho.</li>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Percepção Média de Dificuldade:</strong> 4,8 em uma escala de até 5,0. Este dado quantifica uma insatisfação quase máxima e indica a presença de severas barreiras de IHC enfrentadas pela usuária.</li>
+</ul>
+
+---
+
+### 🗣️ Análise Qualitativa: Comportamento e Verbalizações (Think Aloud)
+
+<p style="text-align: justify;">A aplicação do protocolo de verbalização ativa revelou que os indicadores numéricos desfavoráveis estão atrelados a profundas falhas ergonômicas de interface, que geraram alta sobrecarga cognitiva. As principais ocorrências comportamentais observadas nos vídeos foram:</p>
+
+<ul>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Barreiras de Layout e Visibilidade:</strong> No Cenário 1, a usuária acessou a seção "Posso ajudar?", mas a funcionalidade não apresentava links, botões ou redirecionamentos para números telefônicos. No Cenário 2, precisou aplicar aproximação física extrema e zoom excessivo para conseguir detectar os botões laterais de navegação.</li>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Ausência de Affordance e Padrões Visuais:</strong> Durante a tentativa de agendamento, a usuária confundiu uma tabela de texto estático com botões de clique. Ao tentar interagir com as datas, ficou bloqueada em uma janela <em>pop-up</em> e, ao tentar fechá-la, foi redirecionada inesperadamente para o início do site, perdendo todo o progresso.</li>
+  <li style="text-align: justify; margin-bottom: 5px;"><strong>Inexistência de Suporte Nativo:</strong> No Cenário 4, constatou-se que o portal do HMAB não disponibiliza nenhum mecanismo nativo de acessibilidade (como botões de alto contraste ou redimensionamento de fonte). O uso do zoom manual do próprio smartphone quebrou o alinhamento do layout, forçando a usuária a realizar rolagens horizontais contínuas (scroll) para ler frases fragmentadas.</li>
+</ul>
+
+<p style="text-align: justify;">Ao final do teste, a participante externalizou sua frustração e o sentimento de exclusão gerado pelo ecossistema digital através do seguinte depoimento transcrito:</p>
+
+<blockquote style="font-style: italic;">
+  "Eu queria dizer que é um absurdo o site ser assim, ruim de mexer, principalmente para idosos, que é a maior parte de quem utiliza. E eles não prestam nenhuma assistência, nem no site nem presencialmente. Deixam a gente refém mesmo, refém do site que eu mal consigo usar."
+</blockquote>
+
+---
+
+### 📉 Percepção de Satisfação: O Score SUS (System Usability Scale)
+
+<p style="text-align: justify;">Para validar de forma psicométrica a percepção global de usabilidade, a participante respondeu às 10 perguntas padronizadas do questionário SUS. Abaixo está documentado o processo de conversão matemática das notas aplicadas em escala Likert (1 a 5):</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify; margin-top: 15px;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 50%;">Pergunta do Questionário SUS</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 15%; text-align: center;">Tipo</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 15%; text-align: center;">Resposta (X)</th>
+      <th style="border: 1px solid #dddddd; padding: 8px; width: 20%; text-align: center;">Conversão</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q1. Gostaria de usar o sistema com frequência.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ímpar</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(3 - 1) = <strong>2</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q2. Achei o sistema desnecessariamente complexo.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Par</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(5 - 5) = <strong>0</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q3. Achei o sistema fácil de usar.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ímpar</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">1</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(1 - 1) = <strong>0</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q4. Acho que precisaria de ajuda de uma pessoa com conhecimentos técnicos.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Par</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(5 - 4) = <strong>1</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q5. Achei que as várias funções do sistema estão bem integradas.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ímpar</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(4 - 1) = <strong>3</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q6. Achei que o sistema apresenta muita inconsistência.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Par</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(5 - 5) = <strong>0</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q7. Imagino que as pessoas aprenderão a usar esse sistema rapidamente.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ímpar</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(4 - 1) = <strong>3</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q8. Achei o sistema atrapalhado (desajeitado) de usar.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Par</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(5 - 5) = <strong>0</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q9. Me senti confiante ao usar o sistema.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Ímpar</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">3</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(3 - 1) = <strong>2</strong></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Q10. Precisei aprender várias coisas novas antes de conseguir usar o sistema.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Par</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(5 - 4) = <strong>1</strong></td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td colspan="3" style="border: 1px solid #dddddd; padding: 8px; text-align: right;"><strong>SOMA TOTAL DOS PONTOS CONVERTIDOS:</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px; text-align: center; color: #d9534f;"><strong>12</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="text-align: justify; margin-top: 20px;">A partir da soma obtida, aplica-se a fórmula matemática padrão descrita por Brooke (1996):</p>
+
+$$\text{Score SUS} = \text{Soma dos Pontos Convertidos} \times 2,5$$
+
+$$\text{Score SUS} = 12 \times 2,5 = 30,0$$
+
+#### 🔬 Interpretação Científica do Score SUS
+
+<p style="text-align: justify;">O resultado final de <strong>30,0 pontos</strong> qualifica a usabilidade do portal digital do HMAB sob a classificação de <strong>"Inaceitável" (Grau F)</strong>, posicionando o ecossistema digital muito abaixo do índice médio global de mercado, que é estabelecido em 68 pontos. A pontuação extrema em itens chaves (como complexidade máxima na Q2, facilidade nula na Q3 e inconsistência total na Q6) ratifica quantitativamente o colapso ergonômico vivenciado pela paciente de forma qualitativa nos vídeos. O diagnóstico numérico comprova que o portal não cumpre seu papel institucional de inclusão, demandando uma intervenção imediata na arquitetura de front-end.</p>
+
+<p style="text-align: justify; background-color: #f9f9f9; padding: 12px; border-left: 4px solid #007bff; margin-top: 15px; margin-bottom: 15px;">
+  ℹ️ <strong>Nota de Documentação:</strong> O relatório analítico completo, contendo os roteiros e apêndices desta entrevista, bem como os <strong>vídeos gravados de cada cenário de teste</strong>, encontram-se disponíveis para consulta e download na seção de <a href="6_anexos.md">Anexos (Relatório de Usabilidade e Vídeos da Entrevista)</a>.
+</p>
 
 ---
 
