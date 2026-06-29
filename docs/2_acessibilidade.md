@@ -35,7 +35,7 @@
 | 1.2.2 Legendas [[37]](#ref-wcag-37) | Vídeos gravados devem possuir legendas sincronizadas para conteúdos falados. | Pessoas surdas ou com deficiência auditiva. | A | 5.14.2 [[2]](#ref-nbr-2)|
 | 1.2.4 Legendas para Conteúdo ao Vivo [[39]](#ref-wcag-39) | Transmissões ao vivo devem disponibilizar legendas em tempo real. | Pessoas surdas. | AA | 5.14.9 [[3]](#ref-nbr-3)|
 | 1.2.5 Audiodescrição [[38]](#ref-wcag-38)  | Informações visuais relevantes devem ser descritas verbalmente. | Pessoas cegas ou com baixa visão. | AA | 5.14.4 [[4]](#ref-nbr-4)|
-| 1.3.1 Informação e Relações [[41]](#ref-wcag-41)  | Estruturas visuais devem ser representadas semanticamente no código. | Usuários de tecnologias assistivas. | A | 5.3.1 [[5]](#ref-nbr-5), 5.4.1 [[5]](#ref-nbr-5), 5.5.1 [[6]](#ref-nbr-6), 5.6.1 [[7]](#ref-nbr-7)|
+| 1.3.1 Informação e Relações [[41]](#ref-wcag-41)  | A estrutura e a organização visual da página devem ser feitas de modo que os leitores de tela consigam entender a ordem correta das informações. | Usuários de tecnologias assistivas. | A | 5.3.1 [[5]](#ref-nbr-5), 5.4.1 [[5]](#ref-nbr-5), 5.5.1 [[6]](#ref-nbr-6), 5.6.1 [[7]](#ref-nbr-7)|
 | 1.4.1 Uso da Cor [[46]](#ref-wcag-46)| A cor não deve ser o único meio para transmitir informação. | Pessoas com daltonismo. | A | 5.11.1 [[8]](#ref-nbr-8)|
 | 1.4.3 Contraste Mínimo [[47]](#ref-wcag-47)| Textos devem possuir contraste adequado em relação ao fundo. | Pessoas com baixa visão e idosos. | AA | 5.11.3 [[9]](#ref-nbr-9)|
 | 1.4.10 Reflow [[50]](#ref-wcag-50) | O conteúdo deve adaptar-se a diferentes tamanhos de tela sem exigir rolagem horizontal excessiva. | Usuários com ampliação de tela. | AA | 5.10.4 [[10]](#ref-nbr-10)|
@@ -57,7 +57,7 @@
 | 2.3.1 Três Flashes ou Abaixo do Limite [[59]](#ref-wcag-59) | O conteúdo não pode apresentar flashes que provoquem convulsões. | Pessoas com epilepsia fotossensível. | A | 5.15.4 [[16]](#ref-nbr-16)|
 | 2.4.1 Ignorar Blocos [[61]](#ref-wcag-61)| Deve existir mecanismo para pular menus e conteúdos repetitivos. | Usuários de teclado e leitores de tela. | A | 5.7.12 [17](#ref-nbr-17)|
 | 2.4.2 Página com Título [[62]](#ref-wcag-62) | Cada página deve possuir título claro e descritivo. | Todos os usuários. | A | 5.13.1 [[18]](#ref-nbr-18)|
-| 2.4.7 Foco Visível [[65]](#ref-wcag-65) | O foco do teclado deve ser claramente identificável. | Usuários de teclado. | AA | 5.1.1 [[19]](#ref-nbr-19)|
+| 2.4.7 Foco Visível [[65]](#ref-wcag-65) | Deve ser fácil enxergar qual botão, link ou campo está selecionado na tela ao navegar usando apenas o teclado. | Usuários de teclado. | AA | 5.1.1 [[19]](#ref-nbr-19)|
 | 2.5.8 Tamanho Mínimo do Alvo [[69]](#ref-wcag-69) | Elementos clicáveis devem possuir área mínima adequada para interação. | Pessoas com mobilidade reduzida. | AA | 5.8.7 [[20]](#ref-nbr-20)|
 
 ---
@@ -70,9 +70,9 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 3.1.1 Idioma da Página [[70]](#ref-wcag-70) | O idioma principal da página deve ser identificado corretamente. | Usuários de leitores de tela. | A | 5.13.2 [[21]](#ref-nbr-21)|
 | 3.1.2 Idioma de Partes [[71]](#ref-wcag-71)  | Trechos em idiomas diferentes devem ser marcados adequadamente. | Usuários de tecnologias assistivas. | AA | 5.13.3 [[22]](#ref-nbr-22)|
-| 3.2.1 Foco Não Deve Alterar Contexto [[75]](#ref-wcag-75) | Receber foco não deve provocar mudanças inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.9 [[23]](#ref-nbr-23)|
-| 3.2.2 Entrada Não Deve Alterar Contexto [[76]](#ref-wcag-76) | O preenchimento de campos não deve gerar alterações automáticas inesperadas. | Pessoas com deficiência cognitiva. | A | 5.8.10 [[24]](#ref-nbr-24)|
-| 3.2.3 Navegação Consistente [[77]](#ref-wcag-) | Menus e mecanismos de navegação devem manter consistência entre páginas. | Pessoas com autismo e TDAH. | AA | 5.7.15 [[25]](#ref-nbr-25)|
+| 3.2.1 Foco Não Deve Alterar Contexto [[75]](#ref-wcag-75) | O simples ato de selecionar um elemento (como navegar até um botão com o teclado) não deve abrir novas páginas ou mudar o conteúdo de surpresa. | Pessoas com deficiência cognitiva. | A | 5.8.9 [[23]](#ref-nbr-23)|
+| 3.2.2 Entrada Não Deve Alterar Contexto [[76]](#ref-wcag-76) | Digitar dados em um campo ou marcar uma opção não deve enviar o formulário ou mudar a página de forma automática e sem aviso prévio. | Pessoas com deficiência cognitiva. | A | 5.8.10 [[24]](#ref-nbr-24)|
+| 3.2.3 Navegação Consistente [[77]](#ref-wcag-) | Os menus principais do site e as formas de navegar devem aparecer sempre no mesmo local e na mesma ordem em todas as páginas. | Pessoas com autismo e TDAH. | AA | 5.7.15 [[25]](#ref-nbr-25)|
 | 3.3.1 Identificação de Erros [[80]](#ref-wcag-80) | Erros devem ser apresentados claramente ao usuário. | Todos os usuários. | A | 5.9.9 [[26]](#ref-nbr-26)|
 | 3.3.2 Rótulos e Instruções [[81]](#ref-wcag-81) | Campos devem possuir instruções adequadas de preenchimento. | Pessoas com deficiência cognitiva. | A | 5.9.1 e 5.9.4 [[27]](#ref-nbr-27)|
 | 3.3.3 Sugestão de Correção [[82]](#ref-wcag-82)  | O sistema deve indicar como corrigir erros identificados. | Todos os usuários. | AA | 5.9.10 [[28]](#ref-nbr-27)|
@@ -88,6 +88,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 4.1.2 Nome, Função e Valor [[88]](#ref-wcag-88) | Componentes devem informar corretamente seu nome, função e estado. | Usuários de leitores de tela. | A | 5.13.10 e 5.13.12 [[30]](#ref-nbr-30)|
 | 4.1.3 Mensagens de Status [[89]](#ref-wcag-89) | Mudanças dinâmicas devem ser anunciadas adequadamente. | Pessoas cegas e usuários de leitores de tela. | AA | 5.13.8 [[31]](#ref-nbr-31)|
+
 
 ---
 
