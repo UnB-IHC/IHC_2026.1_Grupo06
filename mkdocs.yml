@@ -9,12 +9,13 @@ use_directory_urls: False
 # Aqui está a SUA estrutura organizada de forma simples
 nav:
   - Início: 'index.md'
-  - 1. Pocket IHC: '1_pocket_ihc.md'
-  - 2. Guia de Acessibilidade: '2_acessibilidade.md'
-  - 3. Metodologia de Avaliação: '3_metodologia.md'
-  - 4. Avaliação na Prática: '4_avaliacao_pratica.md'
-  - 5. Resultados: '5_resultados.md'
-  - 6. Referências Bibliográficas: '6_referencias.md'
+  - Pocket IHC: '1_pocket_ihc.md'
+  - Guia de Acessibilidade: '2_acessibilidade.md'
+  - Metodologia de Avaliação: '3_metodologia.md'
+  - Avaliação na Prática: '4_avaliacao_pratica.md'
+  - Resultados: '5_resultados.md'
+  - Anexos: '6_anexos.md'
+  - Referências Bibliográficas: '7_referencias.md'
 
 site_name: Book de IHC e Acessibilidade
 
