@@ -14,17 +14,13 @@
 
 <p style="text-align: justify;">No âmbito da administração pública brasileira, a acessibilidade digital não se restringe a uma boa prática de <strong>design</strong>, mas constitui um cumprimento legal obrigatório apoiado por múltiplos instrumentos jurídicos:</p>
 
-<div style="text-align: justify;">
-
 * 🏛️ <strong>Lei Brasileira de Inclusão (Lei nº 13.146/2015 - LBI):</strong> Estipula a obrigatoriedade de que os serviços de tecnologia da informação e portais governamentais sejam plenamente acessíveis a pessoas com deficiência.
 Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm" target="_blank">Portal do Planalto - Lei nº 13.146</a>.
 
-* 📜 <strong>Decreto nº 5.296/2004:</strong> Estabelece as regras gerais e os critérios de engenharia básicos para a promoção da acessibilidade arquitetônica e digital.
-Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm" target="_blank">Portal do Planalto - Decreto nº 5.296</a>.
+* 📜 <strong>Decreto nº 5.296/2004:</strong> Estabelece as regras gerais e os critérios de engenharia básicos para a promoção da acessibilidade arquitetônica e digital. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm" target="_blank">Portal do Planalto - Decreto nº 5.296</a>.
 
 * 🌍 <strong>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (ONU, 2006):</strong> Integrada ao ordenamento jurídico nacional com equivalência de emenda constitucional pelo Decreto nº 6.949/2009.
 Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direitos-das-pessoas-com-deficiencia" target="_blank">UNICEF - Convenção da ONU</a>.
-</div>
 
 <p style="text-align: justify;">Para traduzir esses comandos legais em especificações técnicas de <strong>software</strong>, o planejamento desta inspeção baseou-se no <strong>e-MAG (Modelo de Acessibilidade em Governo Eletrônico)</strong>, que fornece o guia de diretrizes de desenvolvimento específicas para o ecossistema público federal brasileiro.</p>
 
@@ -35,6 +31,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 <p style="text-align: justify;">A engenharia do instrumento de coleta de dados (o Checklist Unificado) consistiu na harmonização das recomendações internacionais de IHC com as atualizações mais recentes do cenário normativo técnico brasileiro:</p>
 
 1.  **Web Content Accessibility Guidelines (WCAG 2.2):** Utilizou-se a recomendação internacional emitida pelo W3C (2023) como o núcleo de critérios técnicos, cobrindo os níveis de conformidade <strong>A</strong> (requisitos básicos e impeditivos), <strong>AA</strong> (padrão internacional intermediário exigido legalmente para órgãos públicos) e <strong>AAA</strong> (critérios avançados e otimizados).
+
 2.  **ABNT NBR 17225:2025:** Incorporou-se a norma técnica brasileira homóloga, que regula formalmente as exigências de acessibilidade para conteúdos e aplicações <strong>web</strong> no país.
 
 <p style="text-align: justify;">Enquanto a norma técnica e o WCAG foram adotados como referências de conformidade formal, o grupo utilizou o <strong>Guia de Boas Práticas de Acessibilidade Digital (TG-04)</strong> como um manual de engenharia prático. Essa abordagem permitiu converter princípios abstratos de acessibilidade em validações concretas divididas em quatro frentes de projeto: <strong>Gestão de Projetos</strong>, <strong>Design de Interface</strong>,<strong>Desenvolvimento (Front-End)</strong> e <strong>Geração de Conteúdo</strong>.</p>
@@ -73,7 +70,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ### 🛠️ Método de Inspeção: *Guideline Inspection* e Princípios POUR
 
-<p style="text-align: justify;">A abordagem prática escolhida foi o método de <strong>Inspeção por Linhas de Diretrizes (*Guideline Inspection*)</strong>. Para isso, o grupo projetou um <strong>Checklist Unificado</strong> combinando as normas internacionais do <strong>WCAG 2.2</strong> (níveis de conformidade A, AA e AAA), o modelo nacional <strong>e-MAG</strong> (Modelo de Acessibilidade em Governo Eletrônico) e os requisitos técnicos formais da <strong>ABNT NBR 17225:2025</strong>.</p>
+<p style="text-align: justify;">A abordagem prática escolhida foi o método de <strong>Inspeção por Linhas de Diretrizes (Guideline Inspection)</strong>. Para isso, o grupo projetou um <strong>Checklist Unificado</strong> combinando as normas internacionais do <strong>WCAG 2.2</strong> (níveis de conformidade A, AA e AAA), o modelo nacional <strong>e-MAG</strong> (Modelo de Acessibilidade em Governo Eletrônico) e os requisitos técnicos formais da <strong>ABNT NBR 17225:2025</strong>.</p>
 
 <p style="text-align: justify;">A triagem técnica das inconformidades foi dividida sistematicamente através dos quatro macro-princípios do desenvolvimento acessível:</p>
 
@@ -91,7 +88,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 * **Inspeção Automatizada:** Uso planejado de ferramentas de validação de código (como o *WAVE Web Accessibility Evaluation Tool*) e simuladores automatizados de contraste cromático para obter métricas matemáticas precisas de legibilidade.
 * **Inspeção Manual Especializada:** Ensaios de navegação manual simulando o uso de tecnologias assistivas através de leitores de tela (*NVDA* e *VoiceOver*), testes rigorosos de varredura utilizando exclusivamente a tecla `Tab` para checar a ordem lógica do foco, e testes multiplataforma nos principais navegadores do mercado (*Chrome, Firefox, Edge e Safari*).
 
-<p style="text-align: justify;">Por fim, os dados brutos e planilhados resultantes dessa estrutura de auditoria foram organizados para posterior cruzamento em uma matriz de prioridades, avaliando o impacto gerado na experiência do usuário (*UX*) contra o espetáculo técnico de engenharia de *software* necessário para a sua correção.</p>
+<p style="text-align: justify;">Por fim, os dados brutos e planilhados resultantes dessa estrutura de auditoria foram organizados para posterior cruzamento em uma matriz de prioridades, avaliando o impacto gerado na experiência do usuário (*UX*) contra o espetáculo técnico de engenharia de software necessário para a sua correção.</p>
 
 ---
 
@@ -103,7 +100,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ### 📂 Fundamentação Metodológica: O Protocolo de Pensar em Voz Alta (*Think Aloud*)
 
-<p style="text-align: justify;">Para a execução do teste, optou-se pela aplicação do <strong>Protocolo de Pensar em Voz Alta (*Think Aloud*)</strong>, conforme preconizado por Nielsen (1993). Sob essa ótica metodológica, o participante é instruído a verbalizar ativamente seus pensamentos, intenções, dúvidas e sentimentos enquanto interage com o sistema.</p>
+<p style="text-align: justify;">Para a execução do teste, optou-se pela aplicação do <strong>Protocolo de Pensar em Voz Alta (Think Aloud)</strong>, conforme preconizado por Nielsen (1993). Sob essa ótica metodológica, o participante é instruído a verbalizar ativamente seus pensamentos, intenções, dúvidas e sentimentos enquanto interage com o sistema.</p>
 
 <p style="text-align: justify;">A escolha dessa abordagem justifica-se pela capacidade de fornecer dados qualitativos profundos sobre os processos cognitivos do usuário, permitindo aos inspetores identificar exatamente onde ocorrem as falhas de legibilidade, quebras de expectativa e barreiras de navegação, sem interferir diretamente na ação.</p>
 
@@ -144,7 +141,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ### 🛡️ Aspectos Éticos e Termo de Consentimento (TCLE)
 
-<p style="text-align: justify;">Em conformidade com os aspectos éticos de pesquisas envolvendo seres humanos em IHC, a realização do teste foi condicionada à apresentação e esclarecimento prévio dos objetivos do estudo. Foi assegurado à participante o total anonimato quanto à sua identidade e o direito de interromper o teste a qualquer momento, sem justificativa ou penalidade. O consentimento verbal e a autorização para registro de áudio e anotações foram obtidos estritamente para fins de análise acadêmica e mapeamento de engenharia de interface.</p>
+<p style="text-align: justify;">Em conformidade com os aspectos éticos de pesquisas envolvendo seres humanos em IHC, a realização do teste foi condicionada à apresentação e esclarecimento prévio dos objetivos do estudo. Foi assegurado à participante o total anonimato quanto à sua identidade e o direito de interromper o teste a qualquer momento, sem justificativa ou penalidade. O consentimento verbal e a autorização para registro de áudio e anotações foram obtidos estritamente para fins de análise acadêmica e mapeamento de engenharia de interface, conforme documentado na seção de <a href="6-anexos.md">Anexos</a> do projeto.</p>
 
 ---
 <div align="right">

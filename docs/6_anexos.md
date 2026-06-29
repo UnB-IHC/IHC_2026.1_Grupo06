@@ -4,11 +4,9 @@
 
 <p style="text-align: justify;">Os relatórios em formato PDF encontram-se disponíveis na íntegra para consulta e download através dos links abaixo:</p>
 
-<div style="text-align: justify;">
 
 * 📄 <a href="documentos/termo_consentimento.pdf" target="_blank">Baixar Termo de consentimento do usuário (PDF)</a>
 
-* 📄 <a href="documentos/formulario_sus.pdf.pdf" target="_blank">Baixar Formulário SUS (PDF)</a>
+* 📄 <a href="documentos/formulario_sus.pdf" target="_blank">Baixar Formulário SUS (PDF)</a>
 
-* 💾 <a href="documentos/relatorio_acessibilidade.pdf.pdf" target="_blank">Baixar Relatório de Acessibilidade(PDF)</a>
-</div>
+* 📄 <a href="documentos/relatorio_acessibilidade.pdf" target="_blank">Baixar Relatório de Acessibilidade (PDF)</a>
