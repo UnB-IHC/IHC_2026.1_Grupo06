@@ -7,21 +7,6 @@
 </p>
 ---
 
-### 🌐 O Site Avaliado
-> <div style="text-align: justify;">
-Apresentação e contextualização institucional do portal digital do **Hospital Militar de Área de Brasília (HMAB)**, detalhando seu papel como canal de autoatendimento e a criticidade dos serviços prestados aos beneficiários do FUSEX e SAMMED.
-</div>
-
-### 👥 Perfil dos Avaliadores (Especialistas)
-> <div style="text-align: justify;">
-Qualificação técnica e acadêmica do grupo de inspetores (discentes de Engenharia de Software da UnB), evidenciando o domínio metodológico sobre as diretrizes da WCAG e os critérios de Interação Humano-Computador (IHC).
-</div>
-
-### 👵 Perfil e Qualificação do Usuário
-> <div style="text-align: justify;">
-Caracterização sociodemográfica e fisiológica da usuária real de 75 anos que participou do teste empírico, mapeando seu nível de letramento digital, necessidades de acessibilidade visual e contexto de uso do sistema móvel.
-</div>
-
 ---
 
 ## <img src="imagens/website.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.1 O site avaliado
