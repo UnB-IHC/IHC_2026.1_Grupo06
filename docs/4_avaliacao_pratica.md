@@ -1,6 +1,26 @@
-# <img src="imagens/assessment.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 4. Avaliação na Prática
+# <img src="imagens/assessment.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 4. Caracterização dos avaliadores e do objeto de estudo
 
-Relato prático da execução das avaliações. Esta página documenta o ecossistema real do teste, apresentando a interface escolhida, as personas envolvidas e as tarefas específicas que foram monitoradas.
+
+<p style="text-align: justify;">Relato prático da execução das avaliações. Esta página documenta o ecossistema real do teste, apresentando a interface escolhida, as personas envolvidas e as tarefas específicas que foram monitoradas.</p>
+
+<p style="text-align: justify;">Para compreender a fundo o cenário em que as avaliações de usabilidade e acessibilidade foram aplicadas, esta seção foi estruturada e dividida em três pilares fundamentais:
+</p>
+---
+
+### 🌐 O Site Avaliado
+> <div style="text-align: justify;">
+Apresentação e contextualização institucional do portal digital do **Hospital Militar de Área de Brasília (HMAB)**, detalhando seu papel como canal de autoatendimento e a criticidade dos serviços prestados aos beneficiários do FUSEX e SAMMED.
+</div>
+
+### 👥 Perfil dos Avaliadores (Especialistas)
+> <div style="text-align: justify;">
+Qualificação técnica e acadêmica do grupo de inspetores (discentes de Engenharia de Software da UnB), evidenciando o domínio metodológico sobre as diretrizes da WCAG e os critérios de Interação Humano-Computador (IHC).
+</div>
+
+### 👵 Perfil e Qualificação do Usuário
+> <div style="text-align: justify;">
+Caracterização sociodemográfica e fisiológica da usuária real de 75 anos que participou do teste empírico, mapeando seu nível de letramento digital, necessidades de acessibilidade visual e contexto de uso do sistema móvel.
+</div>
 
 ---
 
@@ -28,14 +48,46 @@ Relato prático da execução das avaliações. Esta página documenta o ecossis
 
 ---
 
-## <img src="imagens/profile.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.2 O Perfil do Usuário e Contexto
-Escreva seu conteúdo aqui...
+## <img src="imagens/profile.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.2 Perfil dos Avaliadores (Especialistas)
+ <img src="imagens/info.png" alt="" width="18" style="vertical-align: middle; margin-right: 4px;">**Contexto do Usuário Técnico:**
+> <div style="text-align: justify;">
+A avaliação por especialistas (Inspeção de Usabilidade e Acessibilidade) foi conduzida pelos próprios membros do grupo desenvolvedor, atuando sob o papel metodológico de avaliadores de interface. 
+
+O perfil do corpo técnico de avaliadores é qualificado pelas seguintes competências:
+
+> <div style="text-align: justify;">
+**Formação Acadêmica:** Discentes do curso de graduação em Engenharia de Software da Universidade de Brasília (UnB), possuindo domínio sobre o ciclo de vida de desenvolvimento de sistemas e arquitetura de software.
+</div>
+> <div style="text-align: justify;">
+**Domínio em IHC e UX:** Capacitação teórica e prática nos conceitos fundamentais de Interação Humano-Computador (IHC), Design de Experiência do Usuário (UX) e critérios de usabilidade. O grupo possui formação voltada para a identificação de barreiras de interface, fluxogramas de navegação e design centrado no usuário.
+</div>
+> <div style="text-align: justify;">
+**Conhecimento em Acessibilidade Digital:** Alinhamento técnico com as diretrizes internacionais de acessibilidade na Web, detendo conhecimento aprofundado sobre os critérios de sucesso e os quatro princípios fundamentais (Perceptível, Operável, Compreensível e Robusto) da norma **WCAG (Web Content Accessibility Guidelines)**.
+</div>
+
+> <div style="text-align: justify;">
+Essa combinação de competências técnicas em Engenharia de Software com os conceitos de IHC qualifica o grupo como avaliadores aptos a identificar desconformidades severas na interface do portal HMAB, garantindo o rigor analítico necessário para o mapeamento dos problemas através do checklist estruturado.
+> </div >
 
 ---
 
-## <img src="imagens/scenario.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.3 Cenário de Teste
-Escreva seu conteúdo aqui...
+## <img src="imagens/scenario.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.3 Perfil e Qualificação do Usuário
 
+> <img src="imagens/info.png" alt="" width="18" style="vertical-align: middle; margin-right: 4px;">**Contexto do Usuário:**
+> <div style="text-align: justify;">
+Para a realização do teste empírico de usabilidade, contou-se com a participação de uma usuária real do ecossistema do Hospital Militar de Área de Brasília (HMAB), cuja caracterização sociodemográfica e tecnológica reflete uma parcela significativa e vulnerável da população atendida pela instituição.
+
+> <div style="text-align: justify;">
+*   **Dados Demográficos e Contexto de Uso:** A participante é uma idosa de 75 anos de idade, paciente ativa do hospital e dependente do plano de saúde do Exército Brasileiro (FUSEX).
+> <div style="text-align: justify;">
+*   **Letramento Digital e Familiaridade Tecnológica:** A usuária apresenta baixo letramento digital e baixa familiaridade com sistemas computacionais cotidianos. Não possui computador de mesa ou notebook, sendo o *smartphone* o seu único ponto de contato e meio de acesso à internet. Devido às complexidades da interface do portal, a participante não possui autonomia plena para navegar no sistema, necessitando recorrer recorrentemente ao auxílio de terceiros (especificamente de suas netas) para gerenciar suas demandas de saúde na plataforma.
+</div>
+*   **Limitações de Acessibilidade Fisiológica:** Do ponto de vista físico e sensorial, a usuária manifesta limitações visuais típicas do envelhecimento natural (presbiopia/baixa visão). Durante a interação, observou-se a necessidade do uso de óculos de grau combinada com a aproximação física severa do aparelho ao rosto. 
+</div>
+
+> <div style="text-align: justify;">
+Como barreira imediata de IHC, a participante depende criticamente da aplicação constante de zoom manual e mecânico (gesto de pinça na tela) para conseguir realizar a leitura de textos e rótulos, uma vez que a interface original do HMAB apresenta fontes diminutas e elementos gráficos de tamanho reduzido, penalizando a experiência de uso deste perfil populacional.
+> </div >
 ---
 <div align="right">
   <small style="opacity: 0.5;">Ícone por <a href="https://www.flaticon.com/br/autores/freepik" target="_blank">Freepik</a></small>
