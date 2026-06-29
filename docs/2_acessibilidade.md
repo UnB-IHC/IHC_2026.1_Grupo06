@@ -2,15 +2,18 @@
 
 ## 2.1 Diretrizes e Normas Adotadas
 
-As diretrizes de acessibilidade adotadas neste projeto são fundamentadas na WCAG (Web Content Accessibility Guidelines), desenvolvida pelo W3C, e na ABNT NBR 17225:2025, que estabelece requisitos de acessibilidade para conteúdos e aplicações Web no contexto brasileiro. Essas referências fornecem critérios e recomendações para o desenvolvimento e a avaliação de interfaces digitais mais inclusivas e acessíveis.
+<p style="text-align: justify;">As diretrizes de acessibilidade adotadas neste projeto são fundamentadas na WCAG (Web Content Accessibility Guidelines), desenvolvida pelo W3C, e na ABNT NBR 17225:2025, que estabelece requisitos de acessibilidade para conteúdos e aplicações Web no contexto brasileiro. Essas referências fornecem critérios e recomendações para o desenvolvimento e a avaliação de interfaces digitais mais inclusivas e acessíveis.
+</p>
 
-A WCAG organiza suas recomendações em quatro princípios fundamentais — Perceptível, Operável, Compreensível e Robusto — e define critérios de sucesso classificados em três níveis de conformidade: A, AA e AAA. A ABNT NBR 17225:2025 complementa essas diretrizes ao consolidar requisitos de acessibilidade aplicáveis ao contexto brasileiro e incorporar recomendações voltadas à implementação e avaliação de conteúdos e aplicações Web. Neste trabalho, serão priorizados os níveis de conformidade A e AA, por representarem os requisitos mínimos e recomendados mais amplamente adotados nas avaliações de acessibilidade digital.
+<p style="text-align: justify;">A WCAG organiza suas recomendações em quatro princípios fundamentais — Perceptível, Operável, Compreensível e Robusto — e define critérios de sucesso classificados em três níveis de conformidade: A, AA e AAA. A ABNT NBR 17225:2025 complementa essas diretrizes ao consolidar requisitos de acessibilidade aplicáveis ao contexto brasileiro e incorporar recomendações voltadas à implementação e avaliação de conteúdos e aplicações Web. Neste trabalho, serão priorizados os níveis de conformidade A e AA, por representarem os requisitos mínimos e recomendados mais amplamente adotados nas avaliações de acessibilidade digital.
+</p>
 
 ---
 
 ## 2.2 Critérios de Sucesso Principais
 
-Os Critérios de Sucesso da WCAG representam requisitos verificáveis utilizados para avaliar a acessibilidade de um sistema digital. Cada critério está associado a um dos quatro princípios fundamentais da WCAG and classificado em um dos níveis de conformidade: A, AA ou AAA.
+<p style="text-align: justify;">Os Critérios de Sucesso da WCAG representam requisitos verificáveis utilizados para avaliar a acessibilidade de um sistema digital. Cada critério está associado a um dos quatro princípios fundamentais da WCAG and classificado em um dos níveis de conformidade: A, AA ou AAA.
+</p>
 
 | Nível | Objetivo |
 |---------|---------|
@@ -23,7 +26,8 @@ Os Critérios de Sucesso da WCAG representam requisitos verificáveis utilizados
 
 ### 1. Princípio Perceptível
 
-O conteúdo deve ser apresentado de forma que todos os usuários consigam percebê-lo, independentemente de limitações visuais, auditivas ou cognitivas.
+<p style="text-align: justify;">O conteúdo deve ser apresentado de forma que todos os usuários consigam percebê-lo, independentemente de limitações visuais, auditivas ou cognitivas.
+</p>
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -41,7 +45,8 @@ O conteúdo deve ser apresentado de forma que todos os usuários consigam perceb
 
 ### 2. Princípio Operável
 
-Todos os componentes da interface devem poder ser utilizados pelos usuários, independentemente do dispositivo ou método de interação empregado.
+<p style="text-align: justify;">Todos os componentes da interface devem poder ser utilizados pelos usuários, independentemente do dispositivo ou método de interação empregado.
+</p>
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -59,7 +64,7 @@ Todos os componentes da interface devem poder ser utilizados pelos usuários, in
 
 ### 3. Princípio Compreensível
 
-As informações e o funcionamento da interface devem ser fáceis de entender e previsíveis para os usuários.
+<p style="text-align: justify;">As informações e o funcionamento da interface devem ser fáceis de entender e previsíveis para os usuários.</p>
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |
@@ -77,7 +82,7 @@ As informações e o funcionamento da interface devem ser fáceis de entender e 
 
 ### 4. Princípio Robusto
 
-O conteúdo deve ser compatível com diferentes navegadores, dispositivos e tecnologias assistivas.
+<p style="text-align: justify;">O conteúdo deve ser compatível com diferentes navegadores, dispositivos e tecnologias assistivas.</p>
 
 | Critério (WCAG) | Descrição | Beneficia | Nível | Seção equivalente na NBR 17225 |
 | :--- | :--- | :--- | :--- | :--- |

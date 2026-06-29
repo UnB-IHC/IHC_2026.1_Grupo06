@@ -1,7 +1,7 @@
 # <img src="imagens/assessment.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 4. Caracterização dos avaliadores e do objeto de estudo
 
 
-<p style="text-align: justify;">Relato prático da execução das avaliações. Esta página documenta o ecossistema real do teste, apresentando a interface escolhida, as personas envolvidas e as tarefas específicas que foram monitoradas.</p>
+<p style="text-align: justify;">Esta página documenta o ecossistema real do teste, apresentando a interface escolhida, as personas envolvidas e as tarefas específicas que foram monitoradas.</p>
 
 <p style="text-align: justify;">Para compreender a fundo o cenário em que as avaliações de usabilidade e acessibilidade foram aplicadas, esta seção foi estruturada e dividida em três pilares fundamentais:
 </p>
