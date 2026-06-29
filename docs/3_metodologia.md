@@ -14,9 +14,17 @@
 
 <p style="text-align: justify;">No âmbito da administração pública brasileira, a acessibilidade digital não se restringe a uma boa prática de <strong>design</strong>, mas constitui um cumprimento legal obrigatório apoiado por múltiplos instrumentos jurídicos:</p>
 
-* **Lei Brasileira de Inclusão (Lei nº 13.146/2015 - LBI):** Estipula a obrigatoriedade de que os serviços de tecnologia da informação e portais governamentais sejam plenamente acessíveis a pessoas com deficiência.
-* **Decreto nº 5.296/2004:** Estabelece as regras gerais e os critérios de engenharia básicos para a promoção da acessibilidade arquitetônica e digital.
-* **Convenção Internacional sobre os Direitos das Pessoas com Deficiência (ONU, 2006):**Integrada ao ordenamento jurídico nacional com equivalência de emenda constitucional pelo Decreto nº 6.949/2009.
+<div style="text-align: justify;">
+
+* 🏛️ <strong>Lei Brasileira de Inclusão (Lei nº 13.146/2015 - LBI):</strong> Estipula a obrigatoriedade de que os serviços de tecnologia da informação e portais governamentais sejam plenamente acessíveis a pessoas com deficiência.
+Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm" target="_blank">Portal do Planalto - Lei nº 13.146</a>.
+
+* 📜 <strong>Decreto nº 5.296/2004:</strong> Estabelece as regras gerais e os critérios de engenharia básicos para a promoção da acessibilidade arquitetônica e digital.
+Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm" target="_blank">Portal do Planalto - Decreto nº 5.296</a>.
+
+* 🌍 <strong>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (ONU, 2006):</strong> Integrada ao ordenamento jurídico nacional com equivalência de emenda constitucional pelo Decreto nº 6.949/2009.
+Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direitos-das-pessoas-com-deficiencia" target="_blank">UNICEF - Convenção da ONU</a>.
+</div>
 
 <p style="text-align: justify;">Para traduzir esses comandos legais em especificações técnicas de <strong>software</strong>, o planejamento desta inspeção baseou-se no <strong>e-MAG (Modelo de Acessibilidade em Governo Eletrônico)</strong>, que fornece o guia de diretrizes de desenvolvimento específicas para o ecossistema público federal brasileiro.</p>
 
