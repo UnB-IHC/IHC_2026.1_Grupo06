@@ -597,16 +597,20 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 <p style="text-align: justify; margin-top: 20px;">A partir da soma obtida, aplica-se a fórmula matemática padrão descrita por Brooke (1996):</p>
 
-$$\text{Score SUS} = \text{Soma dos Pontos Convertidos} \times 2,5$$
+<p style="text-align: center; font-size: 1.2rem; margin: 20px 0; font-family: 'Courier New', Courier, monospace;">
+  <strong>Score SUS = Soma dos Pontos Convertidos × 2,5</strong>
+</p>
 
-$$\text{Score SUS} = 12 \times 2,5 = 30,0$$
+<p style="text-align: center; font-size: 1.2rem; margin: 20px 0; font-family: 'Courier New', Courier, monospace;">
+  <strong>Score SUS = 12 × 2,5 = 30,0</strong>
+</p>
 
 #### 🔬 Interpretação Científica do Score SUS
 
 <p style="text-align: justify;">O resultado final de <strong>30,0 pontos</strong> qualifica a usabilidade do portal digital do HMAB sob a classificação de <strong>"Inaceitável" (Grau F)</strong>, posicionando o ecossistema digital muito abaixo do índice médio global de mercado, que é estabelecido em 68 pontos. A pontuação extrema em itens chaves (como complexidade máxima na Q2, facilidade nula na Q3 e inconsistência total na Q6) ratifica quantitativamente o colapso ergonômico vivenciado pela paciente de forma qualitativa nos vídeos. O diagnóstico numérico comprova que o portal não cumpre seu papel institucional de inclusão, demandando uma intervenção imediata na arquitetura de front-end.</p>
 
 <p style="text-align: justify; background-color: #f9f9f9; padding: 12px; border-left: 4px solid #007bff; margin-top: 15px; margin-bottom: 15px;">
-  ℹ️ <strong>Nota de Documentação:</strong> O relatório analítico completo, contendo os roteiros e apêndices desta entrevista, bem como os <strong>vídeos gravados de cada cenário de teste</strong>, encontram-se disponíveis para consulta e download na seção de <a href="6_anexos.md">Anexos (Relatório de Usabilidade e Vídeos da Entrevista)</a>.
+  ℹ️ <strong>Nota de Documentação:</strong> O relatório analítico completo, contendo os roteiros e apêndices desta entrevista, bem como os <strong>vídeos gravados de cada cenário de teste</strong>, encontram-se disponíveis para consulta e download na seção de <a href="6_anexos.html">Anexos (Relatório de Usabilidade e Vídeos da Entrevista)</a>
 </p>
 
 ---

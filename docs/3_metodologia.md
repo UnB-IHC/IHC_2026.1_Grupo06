@@ -141,7 +141,8 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ### 🛡️ Aspectos Éticos e Termo de Consentimento (TCLE)
 
-<p style="text-align: justify;">Em conformidade com os aspectos éticos de pesquisas envolvendo seres humanos em IHC, a realização do teste foi condicionada à apresentação e esclarecimento prévio dos objetivos do estudo. Foi assegurado à participante o total anonimato quanto à sua identidade e o direito de interromper o teste a qualquer momento, sem justificativa ou penalidade. O consentimento verbal e a autorização para registro de áudio e anotações foram obtidos estritamente para fins de análise acadêmica e mapeamento de engenharia de interface, conforme documentado na seção de <a href="6_anexos.md">Anexos</a> do projeto.</p>
+<p style="text-align: justify;">Em conformidade com os aspectos éticos de pesquisas envolvendo seres humanos em IHC, a realização do teste foi condicionada à apresentação e esclarecimento prévio dos objetivos do estudo. Foi assegurado à participante o total anonimato quanto à sua identidade e o direito de interromper o teste a qualquer momento, sem justificativa ou penalidade. O consentimento verbal e a autorização para registro de áudio e anotações foram obtidos estritamente para fins de análise acadêmica e mapeamento de engenharia de interface, conforme documentado na seção de <a href="6_anexos.html">Anexos</a> do projeto.
+</p>
 
 ---
 <div align="right">
