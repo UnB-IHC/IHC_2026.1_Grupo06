@@ -1,17 +1,16 @@
-# VerificaAAA
+# IHC 2026.1 - Grupo 06
 
-<div align="center">
-<img src="docs/imagens/logo-verificaaa.png" alt="Logo de prancheta com checklist" style="width: 100px">
-</div>
+Bem-vindo ao repositório do projeto da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Professora Rejane Maria da Costa Figueiredo,  referente ao semestre 2026.1.
+
+## Sobre o Projeto
+
+Este projeto tem como objetivo principal investigar a qualidade da interação humano-computador e o nível de acessibilidade de sistemas web. Através de uma abordagem teórica e prática, aplicamos conceitos fundamentais de usabilidade para analisar, avaliar e propor melhorias em interfaces digitais.
+
+### Versão Online
+
+Acesse a documentação publicada em: **[https://unb-ihc.github.io/IHC_2026.1_Grupo06/index.html](https://unb-ihc.github.io/IHC_2026.1_Grupo06/index.html)**
 
 
-## Introdução
-
-Este repositório tem como propósito fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento de software, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos. 
-
-## VerificaAAA
-
-O VerificaAAA é nome do projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). 
 
 ## Contribuidores
 
