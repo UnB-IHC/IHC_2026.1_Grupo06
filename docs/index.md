@@ -1,4 +1,4 @@
-# <img src="imagens/e-book.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> Book de IHC e Acessibilidade
+# Book de IHC e Acessibilidade
 
 Seja bem-vindo ao nosso relatório prático de Interação Humano-Computador. Este documento reúne nossas análises teóricas, avaliações de acessibilidade e os testes práticos realizados ao longo do semestre.
 

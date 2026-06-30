@@ -1,4 +1,4 @@
-# <img src="imagens/methodology.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 3. Metodologia de Avaliação
+# 3. Metodologia de Avaliação
 
 <p style="text-align: justify;">Nesta seção, descrevemos o percurso metodológico escolhido pelo grupo para auditar os sistemas. Detalhamos os métodos de inspeção e as técnicas de testes empíricos que guiaram a coleta de dados de usabilidade e IHC.</p>
 
@@ -10,23 +10,23 @@
 
 ---
 
-### 🏛️ O Contexto Legal e Normativo no Setor Público
+### O Contexto Legal e Normativo no Setor Público
 
 <p style="text-align: justify;">No âmbito da administração pública brasileira, a acessibilidade digital não se restringe a uma boa prática de <strong>design</strong>, mas constitui um cumprimento legal obrigatório apoiado por múltiplos instrumentos jurídicos:</p>
 
-* 🏛️ <strong>Lei Brasileira de Inclusão (Lei nº 13.146/2015 - LBI):</strong> Estipula a obrigatoriedade de que os serviços de tecnologia da informação e portais governamentais sejam plenamente acessíveis a pessoas com deficiência.
+* <strong>Lei Brasileira de Inclusão (Lei nº 13.146/2015 - LBI):</strong> Estipula a obrigatoriedade de que os serviços de tecnologia da informação e portais governamentais sejam plenamente acessíveis a pessoas com deficiência.
 Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm" target="_blank">Portal do Planalto - Lei nº 13.146</a>.
 
-* 📜 <strong>Decreto nº 5.296/2004:</strong> Estabelece as regras gerais e os critérios de engenharia básicos para a promoção da acessibilidade arquitetônica e digital. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm" target="_blank">Portal do Planalto - Decreto nº 5.296</a>.
+* <strong>Decreto nº 5.296/2004:</strong> Estabelece as regras gerais e os critérios de engenharia básicos para a promoção da acessibilidade arquitetônica e digital. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm" target="_blank">Portal do Planalto - Decreto nº 5.296</a>.
 
-* 🌍 <strong>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (ONU, 2006):</strong> Integrada ao ordenamento jurídico nacional com equivalência de emenda constitucional pelo Decreto nº 6.949/2009.
+* <strong>Convenção Internacional sobre os Direitos das Pessoas com Deficiência (ONU, 2006):</strong> Integrada ao ordenamento jurídico nacional com equivalência de emenda constitucional pelo Decreto nº 6.949/2009.
 Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direitos-das-pessoas-com-deficiencia" target="_blank">UNICEF - Convenção da ONU</a>.
 
 <p style="text-align: justify;">Para traduzir esses comandos legais em especificações técnicas de <strong>software</strong>, o planejamento desta inspeção baseou-se no <strong>e-MAG (Modelo de Acessibilidade em Governo Eletrônico)</strong>, que fornece o guia de diretrizes de desenvolvimento específicas para o ecossistema público federal brasileiro.</p>
 
 ---
 
-### 📊 Estruturação do Checklist: WCAG 2.2 e ABNT NBR 17225:2025
+### Estruturação do Checklist: WCAG 2.2 e ABNT NBR 17225:2025
 
 <p style="text-align: justify;">A engenharia do instrumento de coleta de dados (o Checklist Unificado) consistiu na harmonização das recomendações internacionais de IHC com as atualizações mais recentes do cenário normativo técnico brasileiro:</p>
 
@@ -38,7 +38,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 🧬 Os Quatro Princípios Orientadores (POUR)
+### Os Quatro Princípios Orientadores (POUR)
 
 <p style="text-align: justify;">Para viabilizar a auditoria, o checklist foi estruturado de forma a segmentar cada item de verificação segundo os quatro macro-princípios fundamentais do desenvolvimento acessível estabelecidos pelo WCAG:</p>
 
@@ -55,7 +55,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 📂 Fundamentação Teórica: Heurísticas e Pilares de UX
+### Fundamentação Teórica: Heurísticas e Pilares de UX
 
 <p style="text-align: justify;">A auditoria por especialistas foi estruturada com base nas dez heurísticas de usabilidade de Jakob Nielsen (1994) e nos conceitos clássicos de design de Donald Norman (2013), que defendem que uma interface deve ser operada com naturalidade e sem causar frustrações cognitivas ao usuário.</p>
 
@@ -68,7 +68,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 🛠️ Método de Inspeção: *Guideline Inspection* e Princípios POUR
+### Método de Inspeção: *Guideline Inspection* e Princípios POUR
 
 <p style="text-align: justify;">A abordagem prática escolhida foi o método de <strong>Inspeção por Linhas de Diretrizes (Guideline Inspection)</strong>. Para isso, o grupo projetou um <strong>Checklist Unificado</strong> combinando as normas internacionais do <strong>WCAG 2.2</strong> (níveis de conformidade A, AA e AAA), o modelo nacional <strong>e-MAG</strong> (Modelo de Acessibilidade em Governo Eletrônico) e os requisitos técnicos formais da <strong>ABNT NBR 17225:2025</strong>.</p>
 
@@ -81,7 +81,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 💻 Ferramentas e Dinâmica de Execução
+### Ferramentas e Dinâmica de Execução
 
 <p style="text-align: justify;">O planejamento da inspeção definiu uma abordagem mista, unindo automação e análise manual criteriosa feita pela equipe de desenvolvimento:</p>
 
@@ -98,7 +98,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 📂 Fundamentação Metodológica: O Protocolo de Pensar em Voz Alta (*Think Aloud*)
+### Fundamentação Metodológica: O Protocolo de Pensar em Voz Alta (*Think Aloud*)
 
 <p style="text-align: justify;">Para a execução do teste, optou-se pela aplicação do <strong>Protocolo de Pensar em Voz Alta (Think Aloud)</strong>, conforme preconizado por Nielsen (1993). Sob essa ótica metodológica, o participante é instruído a verbalizar ativamente seus pensamentos, intenções, dúvidas e sentimentos enquanto interage com o sistema.</p>
 
@@ -108,7 +108,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 📑 Estruturação do Roteiro de Tarefas (Cenários de Uso)
+### Estruturação do Roteiro de Tarefas (Cenários de Uso)
 
 <p style="text-align: justify;">O teste foi baseado em cenários de uso reais e cotidianos, projetados para cobrir desde necessidades informacionais básicas até fluxos transacionais complexos e críticos dentro do portal móvel do hospital. As tarefas foram redigidas de forma a simular um objective prático, evitando termos literais da interface para não enviesar a navegação:</p>
 
@@ -130,7 +130,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 📊 Métricas Qualitativas e Quantitativas Definidas
+### Métricas Qualitativas e Quantitativas Definidas
 
 <p style="text-align: justify;">Para avaliar o desempenho de forma objetiva, o planejamento estruturou a coleta de dados com base em duas métricas principais:</p>
 
@@ -139,7 +139,7 @@ Disponível em: <a href="https://www.unicef.org/brazil/convencao-sobre-os-direit
 
 ---
 
-### 🛡️ Aspectos Éticos e Termo de Consentimento (TCLE)
+### Aspectos Éticos e Termo de Consentimento (TCLE)
 
 <p style="text-align: justify;">Em conformidade com os aspectos éticos de pesquisas envolvendo seres humanos em IHC, a realização do teste foi condicionada à apresentação e esclarecimento prévio dos objetivos do estudo. Foi assegurado à participante o total anonimato quanto à sua identidade e o direito de interromper o teste a qualquer momento, sem justificativa ou penalidade. O consentimento verbal e a autorização para registro de áudio e anotações foram obtidos estritamente para fins de análise acadêmica e mapeamento de engenharia de interface, conforme documentado na seção de <a href="6_anexos.html">Anexos</a> do projeto.
 </p>
