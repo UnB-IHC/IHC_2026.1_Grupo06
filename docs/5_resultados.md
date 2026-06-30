@@ -1,4 +1,4 @@
-# <img src="imagens/results.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 5. Resultados
+# 5. Resultados
 
 <p style="text-align: justify;">Esta seção apresenta a consolidação, a análise e a discussão dos dados brutos obtidos durante a fase de auditoria e testes do portal do Hospital Militar de Área de Brasília (HMAB). O objetivo central desta etapa é converter os registros de interações e as inconformidades técnicas coletadas em diagnósticos claros sobre o estado atual da interface sob a ótica de Interação Humano-Computador (IHC), Usabilidade e Acessibilidade Digital.</p>
 
@@ -30,7 +30,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 📋 Checklist Unificado de Acessibilidade e Usabilidade
+### Checklist Unificado de Acessibilidade e Usabilidade
 
 <p style="text-align: justify;">O checklist a seguir sintetiza os critérios de avaliação construídos pelo grupo, baseados nos quatro princípios POUR do WCAG 2.2 e nos requisitos da NBR 17225:2025. Os status foram atribuídos com base na inspeção técnica realizada no portal do HMAB.</p>
 
@@ -40,7 +40,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 <table style="width: 100%; border-collapse: collapse; text-align: justify;">
   <thead>
-    <tr style="background-color: #f2f2f2;">
+    <tr>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Diretriz / Item do Guia</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 10%; text-align: center;">Status</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 65%;">Evidências Observadas no HMAB</th>
@@ -163,7 +163,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 <table style="width: 100%; border-collapse: collapse; text-align: justify;">
   <thead>
-    <tr style="background-color: #f2f2f2;">
+    <tr>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Diretriz / Item do Guia</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 10%; text-align: center;">Status</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 65%;">Evidências Observadas no HMAB</th>
@@ -266,7 +266,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 <table style="width: 100%; border-collapse: collapse; text-align: justify;">
   <thead>
-    <tr style="background-color: #f2f2f2;">
+    <tr>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 25%;">Diretriz / Item do Guia</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 10%; text-align: center;">Status</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 65%;">Evidências Observadas no HMAB</th>
@@ -398,7 +398,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 📊 Consolidação das Métricas de Conformidade por Nível
+### Consolidação das Métricas de Conformidade por Nível
 
 <p style="text-align: justify;">Após a aplicação integral do checklist, os dados foram processados para gerar o Dashboard de Acessibilidade do portal HMAB, que demonstra o percentual de sucesso do site em relação aos três níveis de conformidade estabelecidos pelo WCAG 2.2:</p>
 
@@ -423,7 +423,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 👥 Perfil do Participante e Aspectos Metodológicos
+### Perfil do Participante e Aspectos Metodológicos
 
 <p style="text-align: justify;">Alinhado com as recomendações de representatividade de público-alvo em sistemas de saúde pública, o teste foi conduzido com uma participante idosa de 75 anos de idade, paciente ativa do hospital e dependente do plano de saúde FUSEX. A usuária possui baixa familiaridade tecnológica, não utiliza computadores e possui o smartphone como único meio de acesso à internet — dependendo frequentemente do auxílio de terceiros (netas) para interagir com o site. Adicionalmente, apresenta limitações visuais típicas da idade, demandando o uso de óculos de grau e aplicação contínua de zoom manual na tela.</p>
 
@@ -433,13 +433,13 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 📊 Análise Quantitativa: Desempenho por Cenário de Tarefa
+### Análise Quantitativa: Desempenho por Cenário de Tarefa
 
 <p style="text-align: justify;">A avaliação foi estruturada através de 4 cenários baseados em metas contextuais do cotidiano da paciente. Durante as interações, foram monitorados o tempo de execução (eficiência), o número de erros cometidos, o status de conclusão (eficácia) e a escala de dificuldade percebida (satisfação de 1 a 5, onde 5 representa dificuldade máxima):</p>
 
 <table style="width: 100%; border-collapse: collapse; text-align: justify; margin-top: 15px;">
   <thead>
-    <tr style="background-color: #f2f2f2;">
+    <tr>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 18%;">Cenário</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 30%;">Objetivo / Tarefa</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Status (Eficácia)</th>
@@ -496,7 +496,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 🗣️ Análise Qualitativa: Comportamento e Verbalizações (Think Aloud)
+### Análise Qualitativa: Comportamento e Verbalizações (Think Aloud)
 
 <p style="text-align: justify;">A aplicação do protocolo de verbalização ativa revelou que os indicadores numéricos desfavoráveis estão atrelados a profundas falhas ergonômicas de interface, que geraram alta sobrecarga cognitiva. As principais ocorrências comportamentais observadas nos vídeos foram:</p>
 
@@ -514,13 +514,13 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 📉 Percepção de Satisfação: O Score SUS (System Usability Scale)
+### Percepção de Satisfação: O Score SUS (System Usability Scale)
 
 <p style="text-align: justify;">Para validar de forma psicométrica a percepção global de usabilidade, a participante respondeu às 10 perguntas padronizadas do questionário SUS. Abaixo está documentado o processo de conversão matemática das notas aplicadas em escala Likert (1 a 5):</p>
 
 <table style="width: 100%; border-collapse: collapse; text-align: justify; margin-top: 15px;">
   <thead>
-    <tr style="background-color: #f2f2f2;">
+    <tr>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 50%;">Pergunta do Questionário SUS</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 15%; text-align: center;">Tipo</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 15%; text-align: center;">Resposta (X)</th>
@@ -588,7 +588,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
       <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">4</td>
       <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">(5 - 4) = <strong>1</strong></td>
     </tr>
-    <tr style="background-color: #f9f9f9;">
+    <tr>
       <td colspan="3" style="border: 1px solid #dddddd; padding: 8px; text-align: right;"><strong>SOMA TOTAL DOS PONTOS CONVERTIDOS:</strong></td>
       <td style="border: 1px solid #dddddd; padding: 8px; text-align: center; color: #d9534f;"><strong>12</strong></td>
     </tr>
@@ -605,12 +605,12 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
   <strong>Score SUS = 12 × 2,5 = 30,0</strong>
 </p>
 
-#### 🔬 Interpretação Científica do Score SUS
+#### Interpretação Científica do Score SUS
 
 <p style="text-align: justify;">O resultado final de <strong>30,0 pontos</strong> qualifica a usabilidade do portal digital do HMAB sob a classificação de <strong>"Inaceitável" (Grau F)</strong>, posicionando o ecossistema digital muito abaixo do índice médio global de mercado, que é estabelecido em 68 pontos. A pontuação extrema em itens chaves (como complexidade máxima na Q2, facilidade nula na Q3 e inconsistência total na Q6) ratifica quantitativamente o colapso ergonômico vivenciado pela paciente de forma qualitativa nos vídeos. O diagnóstico numérico comprova que o portal não cumpre seu papel institucional de inclusão, demandando uma intervenção imediata na arquitetura de front-end.</p>
 
-<p style="text-align: justify; background-color: #f9f9f9; padding: 12px; border-left: 4px solid #007bff; margin-top: 15px; margin-bottom: 15px;">
-  ℹ️ <strong>Nota de Documentação:</strong> O relatório analítico completo, contendo os roteiros e apêndices desta entrevista, bem como os <strong>vídeos gravados de cada cenário de teste</strong>, encontram-se disponíveis para consulta e download na seção de <a href="6_anexos.html">Anexos (Relatório de Usabilidade e Vídeos da Entrevista)</a>
+<p style="text-align: justify; padding: 12px; border-left: 4px solid #007bff; margin-top: 15px; margin-bottom: 15px;">
+   <strong>Nota de Documentação:</strong> O relatório analítico completo, contendo os roteiros e apêndices desta entrevista, bem como os <strong>vídeos gravados de cada cenário de teste</strong>, encontram-se disponíveis para consulta e download na seção de <a href="6_anexos.html">Anexos (Relatório de Usabilidade e Vídeos da Entrevista)</a>
 </p>
 
 ---
@@ -621,7 +621,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 🔍 Diagnóstico Geral e Mapa de Prioridades
+### Diagnóstico Geral e Mapa de Prioridades
 
 <p style="text-align: justify;">A análise consolidada do portal do HMAB revela um padrão de não conformidade generalizado nos quatro princípios POUR, com concentração crítica nos princípios Perceptível e Operável. Conforme demonstrado quantitativamente no Dashboard de Acessibilidade, o portal atinge conformidade nula (0%) no Nível AA, patamar mínimo exigido para órgãos públicos.</p>
 
@@ -639,7 +639,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 <table style="width: 100%; border-collapse: collapse; text-align: justify; margin-top: 15px;">
   <thead>
-    <tr style="background-color: #f2f2f2;">
+    <tr>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 15%;">Prioridade</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 30%;">Ação de Engenharia</th>
       <th style="border: 1px solid #dddddd; padding: 8px; width: 35%;">Impacto em UX</th>
@@ -730,7 +730,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 🛠️ Design de Serviço: Impacto em UX × Esforço Técnico
+### Design de Serviço: Impacto em UX × Esforço Técnico
 
 <p style="text-align: justify;">Adotando a perspectiva ágil de design de serviços aplicada à IHC, a triagem de melhorias do portal do HMAB deve equilibrar a experiência entregue ao paciente com o custo técnico de implementação. A análise classifica as intervenções segundo dois eixos principais: o impacto na jornada do usuário e o esforço de engenharia requerido.</p>
 
@@ -744,7 +744,7 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-### 📝 Considerações Finais e Recomendações
+### Considerações Finais e Recomendações
 
 <p style="text-align: justify;">A auditoria técnica realizada pelo Grupo 06 sobre o portal do Hospital Militar de Área de Brasília (HMAB) evidencia que o ecossistema atual se encontra em nível insuficiente de conformidade com os requisitos mínimos de acessibilidade digital estabelecidos pela WCAG 2.2, pela ABNT NBR 17225:2025 e pelo e-MAG, todos de cumprimento compulsório para portais da administração pública brasileira.</p>
 

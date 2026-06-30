@@ -1,4 +1,4 @@
-# <img src="imagens/manual.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 2. Guia de Acessibilidade
+# 2. Guia de Acessibilidade
 
 ## 2.1 Diretrizes e Normas Adotadas
 
@@ -224,13 +224,13 @@
 
 <h2>Dashboard de Acessibilidade</h2>
 
-<!-- Título do gráfico -->
+
 <h3 style="text-align: center; margin-top: 30px;"> Gráfico grau de conformidade</h3>
 
-<!-- Container com 3 gráficos circulares (um por nível) -->
+
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 40px; margin: 20px 0;">
   
-  <!-- Nível A -->
+
   <div style="display: flex; flex-direction: column; align-items: center; min-width: 180px; flex: 1 1 180px;">
     <h4 style="margin: 0 0 12px 0; text-align: center; font-size: 1.1em;">Nível A</h4>
     <div style="width: 150px; height: 150px; position: relative;">
@@ -241,7 +241,6 @@
     </div>
   </div>
 
-  <!-- Nível AA -->
   <div style="display: flex; flex-direction: column; align-items: center; min-width: 180px; flex: 1 1 180px;">
     <h4 style="margin: 0 0 12px 0; text-align: center; font-size: 1.1em;">Nível AA</h4>
     <div style="width: 150px; height: 150px; position: relative;">
@@ -252,7 +251,6 @@
     </div>
   </div>
 
-  <!-- Nível AAA -->
   <div style="display: flex; flex-direction: column; align-items: center; min-width: 180px; flex: 1 1 180px;">
     <h4 style="margin: 0 0 12px 0; text-align: center; font-size: 1.1em;">Nível AAA</h4>
     <div style="width: 150px; height: 150px; position: relative;">
@@ -405,17 +403,14 @@
     // ---------- ATUALIZAR TODOS OS GRÁFICOS ----------
     function atualizarDashboards() {
         try {
-            // 1. Destruir gráficos antigos
             if (graficoNivelA) { graficoNivelA.destroy(); graficoNivelA = null; }
             if (graficoNivelAA) { graficoNivelAA.destroy(); graficoNivelAA = null; }
             if (graficoNivelAAA) { graficoNivelAAA.destroy(); graficoNivelAAA = null; }
 
-            // 2. Criar gráficos dos níveis
             graficoNivelA = criarGraficoNivel('graficoNivelA', 'A', '#27ae60');
             graficoNivelAA = criarGraficoNivel('graficoNivelAA', 'AA', '#2980b9');
             graficoNivelAAA = criarGraficoNivel('graficoNivelAAA', 'AAA', '#8e44ad');
 
-            // 3. Atualizar contadores e percentuais
             ['A', 'AA', 'AAA'].forEach(nivel => {
                 const { marcados, total, percentual: pct } = percentual(niveis[nivel]);
                 const contadorEl = document.getElementById(`contador-${nivel}`);
@@ -429,7 +424,6 @@
         }
     }
 
-    // ---------- INICIALIZA ----------
     setTimeout(atualizarDashboards, 100);
   });
 </script>

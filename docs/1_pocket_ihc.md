@@ -1,4 +1,4 @@
-# <img src="imagens/pocket.png" alt="" width="32" style="vertical-align: middle; margin-right: 8px;"> 1. Pocket IHC
+# 1. Pocket IHC
 
 Este capítulo apresenta o "Pocket IHC", um guia rápido focado nos conceitos essenciais de usabilidade e design de interface. Aqui, sintetizamos as teorias que serviram como base para todas as decisões práticas tomadas ao longo do nosso projeto.
 
