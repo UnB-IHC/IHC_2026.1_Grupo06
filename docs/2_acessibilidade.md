@@ -294,12 +294,14 @@
             "wcag-111-1","wcag-111-2","wcag-111-3","wcag-111-4",
             "wcag-121-1","wcag-122-1",
             "wcag-131-1","wcag-131-2","wcag-131-3",
+            "wcag-132-1",
             "wcag-133-1",
             "wcag-141-1",
             "wcag-211","wcag-212","wcag-214",
             "wcag-221","wcag-222",
             "wcag-231",
-            "wcag-241","wcag-242",
+            "wcag-241","wcag-242", "wcag-243","wcag-244",
+            "wcag-251", "wcag-253",
             "wcag-311",
             "wcag-321","wcag-322",
             "wcag-326",
@@ -309,21 +311,30 @@
         AA: [
             "wcag-124-1","wcag-125-1",
             "wcag-143-1",
+            "wcag-144-1",
             "wcag-1410-1",
             "wcag-1411-1",
             "wcag-247",
+            "wcag-257",
             "wcag-258",
             "wcag-312",
             "wcag-323",
+            "wcag-324",
             "wcag-333",
             "wcag-334",
+            "wcag-336",
+            "wcag-337",
             "wcag-413"
         ],
         AAA: [
+            "wcag-1412-1",
             "wcag-226","wcag-233",
             "wcag-126-1",
+            "wcag-313",
+            "wcag-314",
             "wcag-315",
-            "wcag-335"
+            "wcag-335",
+            "wcag-338"
         ]
     };
 
