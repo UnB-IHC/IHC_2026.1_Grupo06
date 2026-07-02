@@ -35,7 +35,7 @@ A plataforma serve como o principal canal digital de comunicação e autoatendim
 
 ---
 
-## <img src="imagens/profile.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.2 Perfil dos Avaliadores (Especialistas)
+## <img src="imagens/profile.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 4.2 Perfil dos Avaliadores
 
 <img src="imagens/info.png" alt="" width="18" style="vertical-align: middle; margin-right: 4px;"> **Contexto do Usuário Técnico:**
 

@@ -4,7 +4,7 @@
 
 <p style="text-align: justify;">Para garantir uma leitura estruturada e metodologicamente rigorosa, os achados foram segmentados em três frentes complementares:</p>
 
-### Resultados da Avaliação por Especialistas:
+### Resultados da Avaliação do Site:
 > <div style="text-align: justify;">
 Detalhamento técnico das barreiras mapeadas pela equipe de desenvolvimento por meio do Checklist Unificado, categorizadas segundo os princípios normativos internacionais e nacionais.
 </div>
@@ -24,9 +24,9 @@ Cruzamento analítico das duas abordagens anteriores para priorizar os problemas
 
 ---
 
-## <img src="imagens/user-chart.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 5.1 Resultados da Avaliação por Especialistas
+## <img src="imagens/user-chart.png" alt="" width="22" style="vertical-align: middle; margin-right: 6px;"> 5.1 Resultados da Avaliação do Site por Estudantes
 
-<p style="text-align: justify;">Esta subseção apresenta os resultados quantitativos e qualitativos obtidos por meio da aplicação do Checklist Unificado de Acessibilidade e Usabilidade no portal do Hospital Militar de Área de Brasília (HMAB). A inspeção, realizada pela equipe de especialistas, avaliou a conformidade das páginas do ecossistema frente às diretrizes do WCAG 2.2 e aos requisitos da ABNT NBR 17225:2025.</p>
+<p style="text-align: justify;">Esta subseção apresenta os resultados quantitativos e qualitativos obtidos por meio da aplicação do Checklist Unificado de Acessibilidade e Usabilidade no portal do Hospital Militar de Área de Brasília (HMAB). A inspeção, realizada pela equipe de estudantes, avaliou a conformidade das páginas do ecossistema frente às diretrizes do WCAG 2.2 e aos requisitos da ABNT NBR 17225:2025.</p>
 
 ---
 
